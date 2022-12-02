@@ -1,0 +1,31 @@
+syntax = "proto3";
+option go_package = "/;protos";
+
+package protos;
+
+// Response represents a rpc message
+message RoomResponse {
+  int32 Code = 1;
+  string Msg = 2;
+}
+
+// UserMessage represents a message that user sent
+message RoomUserMessage {
+  string Name = 1;
+  string Content = 2;
+}
+
+// NewUser message will be received when new user join room
+message RoomNewUser{
+  string Content = 1;
+}
+
+message RoomRPCMsg{
+  string Route = 1;
+  string Msg = 2;
+}
+
+// AllMembers contains all members uid
+message RoomAllMembers {
+  repeated string Members = 1;
+}

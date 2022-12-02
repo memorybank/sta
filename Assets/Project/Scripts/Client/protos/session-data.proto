@@ -1,0 +1,9 @@
+syntax = "proto3";
+option go_package = "/;protos";
+
+package protos;
+
+message SessionData {
+    string data = 1;
+}
+

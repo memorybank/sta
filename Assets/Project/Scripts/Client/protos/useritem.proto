@@ -1,0 +1,10 @@
+syntax = "proto3";
+option go_package = "/;protos";
+
+package protos;
+
+message UserUseItem {
+  string uuid = 1; // 使用道具的User
+  string name = 2; // 道具名称
+  int64 timestamp = 3; // 时间戳
+}

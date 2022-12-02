@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 9d49a00a420822146b5d90f22e280024
+labels:
+- Bot
+- Example
+- Generic
+- MineBot
+- Spider
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BackFoot
+  - first:
+      1: 100002
+    second: BackLowerLeg
+  - first:
+      1: 100004
+    second: BackUpperLeg
+  - first:
+      1: 100006
+    second: Core
+  - first:
+      1: 100008
+    second: FrontFoot
+  - first:
+      1: 100010
+    second: FrontLowerLeg
+  - first:
+      1: 100012
+    second: FrontUpperLeg
+  - first:
+      1: 100014
+    second: LeftFoot
+  - first:
+      1: 100016
+    second: LeftLowerLeg
+  - first:
+      1: 100018
+    second: LeftUpperLeg
+  - first:
+      1: 100020
+    second: RightFoot
+  - first:
+      1: 100022
+    second: RightLowerLeg
+  - first:
+      1: 100024
+    second: RightUpperLeg
+  - first:
+      1: 100026
+    second: Root
+  - first:
+      1: 100028
+    second: //RootNode
+  - first:
+      4: 400000
+    second: BackFoot
+  - first:
+      4: 400002
+    second: BackLowerLeg
+  - first:
+      4: 400004
+    second: BackUpperLeg
+  - first:
+      4: 400006
+    second: Core
+  - first:
+      4: 400008
+    second: FrontFoot
+  - first:
+      4: 400010
+    second: FrontLowerLeg
+  - first:
+      4: 400012
+    second: FrontUpperLeg
+  - first:
+      4: 400014
+    second: LeftFoot
+  - first:
+      4: 400016
+    second: LeftLowerLeg
+  - first:
+      4: 400018
+    second: LeftUpperLeg
+  - first:
+      4: 400020
+    second: RightFoot
+  - first:
+      4: 400022
+    second: RightLowerLeg
+  - first:
+      4: 400024
+    second: RightUpperLeg
+  - first:
+      4: 400026
+    second: Root
+  - first:
+      4: 400028
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: SpiderBot
+  - first:
+      23: 2300000
+    second: BackLowerLeg
+  - first:
+      23: 2300002
+    second: BackUpperLeg
+  - first:
+      23: 2300004
+    second: Core
+  - first:
+      23: 2300006
+    second: FrontLowerLeg
+  - first:
+      23: 2300008
+    second: FrontUpperLeg
+  - first:
+      23: 2300010
+    second: LeftLowerLeg
+  - first:
+      23: 2300012
+    second: LeftUpperLeg
+  - first:
+      23: 2300014
+    second: RightLowerLeg
+  - first:
+      23: 2300016
+    second: RightUpperLeg
+  - first:
+      23: 2300018
+    second: Root
+  - first:
+      33: 3300000
+    second: BackLowerLeg
+  - first:
+      33: 3300002
+    second: BackUpperLeg
+  - first:
+      33: 3300004
+    second: Core
+  - first:
+      33: 3300006
+    second: FrontLowerLeg
+  - first:
+      33: 3300008
+    second: FrontUpperLeg
+  - first:
+      33: 3300010
+    second: LeftLowerLeg
+  - first:
+      33: 3300012
+    second: LeftUpperLeg
+  - first:
+      33: 3300014
+    second: RightLowerLeg
+  - first:
+      33: 3300016
+    second: RightUpperLeg
+  - first:
+      33: 3300018
+    second: Root
+  - first:
+      43: 4300000
+    second: Root
+  - first:
+      43: 4300002
+    second: BackUpperLeg
+  - first:
+      43: 4300004
+    second: BackLowerLeg
+  - first:
+      43: 4300006
+    second: Core
+  - first:
+      43: 4300008
+    second: FrontUpperLeg
+  - first:
+      43: 4300010
+    second: FrontLowerLeg
+  - first:
+      43: 4300012
+    second: LeftUpperLeg
+  - first:
+      43: 4300014
+    second: LeftLowerLeg
+  - first:
+      43: 4300016
+    second: RightUpperLeg
+  - first:
+      43: 4300018
+    second: RightLowerLeg
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpperLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FrontUpperLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLowerLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FrontLowerLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FrontFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BackUpperLeg
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BackFoot
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SpiderBot(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: Root
+      parentName: SpiderBot(Clone)
+      position: {x: -0.1407471, y: -0.00000011920924, z: 1.0134028}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999994, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BackUpperLeg
+      parentName: Root
+      position: {x: -0.00000011920927, y: -0.0795377, z: 0.28149426}
+      rotation: {x: -0.6294579, y: 0.0726028, z: 0.09701137, w: 0.7675288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BackLowerLeg
+      parentName: BackUpperLeg
+      position: {x: 0.000000009536743, y: -0.09292825, z: 0.3060711}
+      rotation: {x: -0.50758547, y: -0.000016473496, z: 0.000012155691, w: 0.8616014}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: BackFoot
+      parentName: BackLowerLeg
+      position: {x: 0.00000013250973, y: 0.046063155, z: -0.51991886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Core
+      parentName: Root
+      position: {x: 0.00000006853786, y: 0.34678704, z: -0.000000043811227}
+      rotation: {x: 0.00000004371138, y: -3.3001177e-15, z: -0.00000007549791, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FrontUpperLeg
+      parentName: Root
+      position: {x: -0.000000071525584, y: -0.0795377, z: -0.2814942}
+      rotation: {x: -0.0052543194, y: 0.852807, z: -0.5215114, w: -0.02680605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FrontLowerLeg
+      parentName: FrontUpperLeg
+      position: {x: -0.000000019073486, y: -0.09292829, z: 0.30607113}
+      rotation: {x: -0.951818, y: -0.07948294, z: 0.037237085, w: 0.29383412}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: FrontFoot
+      parentName: FrontLowerLeg
+      position: {x: 0.0000001325097, y: 0.04606315, z: -0.51991886}
+      rotation: {x: -0.45605808, y: -0.057153776, z: 0.2193302, w: 0.8606037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpperLeg
+      parentName: Root
+      position: {x: -0.28149426, y: -0.0795377, z: 0.00000004156227}
+      rotation: {x: 0.3506583, y: -0.6045788, z: 0.40451995, w: 0.58981943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLowerLeg
+      parentName: LeftUpperLeg
+      position: {x: -0.0000000047683715, y: -0.09292828, z: 0.30607107}
+      rotation: {x: -0.9712551, y: -0.0030362594, z: 0.0016556972, w: 0.23801588}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: LeftFoot
+      parentName: LeftLowerLeg
+      position: {x: 0.0000001325097, y: 0.04606315, z: -0.51991886}
+      rotation: {x: -0.40745726, y: -0.012431779, z: 0.016876206, w: 0.9129837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpperLeg
+      parentName: Root
+      position: {x: 0.28149414, y: -0.079537675, z: 0.00000010396197}
+      rotation: {x: -0.3464572, y: 0.61186963, z: 0.35327035, w: 0.6170762}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLowerLeg
+      parentName: RightUpperLeg
+      position: {x: -0.0000000140070915, y: -0.09292841, z: 0.3060712}
+      rotation: {x: -0.70724165, y: -0.00019743136, z: -0.0002252071, w: 0.7069718}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: RightFoot
+      parentName: RightLowerLeg
+      position: {x: 0.0000001325097, y: 0.04606315, z: -0.51991886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
