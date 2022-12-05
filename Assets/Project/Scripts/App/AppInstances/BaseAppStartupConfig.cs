@@ -10,10 +10,7 @@ namespace Playa.App
     {
         public AvatarUser[] AvatarUsers;
 
-        public Transform[] AvatarSpawn;
-
         public Transform[] LookAtTargets;
-        public Transform[] IKLookAtProbes;
 
         //comment
         //Item UI Scroll? maybe

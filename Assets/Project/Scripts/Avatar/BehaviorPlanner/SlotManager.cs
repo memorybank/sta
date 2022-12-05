@@ -16,7 +16,7 @@ namespace Playa.Avatars
         Follow,
     }
 
-    public class SlotManager : MonoBehaviour
+    public class SlotManager
     {
         public class PerSlot
         {
@@ -30,12 +30,26 @@ namespace Playa.Avatars
         }
 
         // Parent pointer
-        [SerializeField] private AvatarUser _AvatarUser;
+        private AvatarUser _AvatarUser;
         private MultiIKManager MultiIKManager => _AvatarUser.MultiIKManager;
 
         private Dictionary<SlotName, PerSlot> _SlotsHistory;
         private Dictionary<IKEffectorName, int> _CurrentPriority;
         private Dictionary<IKEffectorName, IKTarget> _FinalTargets;
+
+        public SlotManager(AvatarUser avatarUser)
+        {
+            _CurrentPriority = new Dictionary<IKEffectorName, int>();
+
+            foreach (IKEffectorName ikEffectorName in Enum.GetValues(typeof(IKEffectorName)))
+            {
+                _CurrentPriority.Add(ikEffectorName, 0);
+            }
+
+            _SlotsHistory = new Dictionary<SlotName, PerSlot>();
+
+            _AvatarUser = avatarUser;
+        }
 
         public void RegisterSlots(List<SlotName> slotName, BaseItem item, Dictionary<IKEffectorName, IKTarget> targets)
         {
@@ -145,24 +159,6 @@ namespace Playa.Avatars
                 }
             }
             MultiIKManager.SetIKTargets(_FinalTargets);
-        }
-
-        void Awake()
-        {
-            _CurrentPriority = new Dictionary<IKEffectorName, int>();
-
-            foreach (IKEffectorName ikEffectorName in Enum.GetValues(typeof(IKEffectorName)))
-            {
-                _CurrentPriority.Add(ikEffectorName, 0);
-            }
-
-            _SlotsHistory = new Dictionary<SlotName, PerSlot>();
-
-        }
-
-        void LateUpdate()
-        {
-
         }
     }
 }

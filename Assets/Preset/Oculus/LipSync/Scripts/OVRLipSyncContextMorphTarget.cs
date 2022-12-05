@@ -96,7 +96,7 @@ public class OVRLipSyncContextMorphTarget : MonoBehaviour
         // morph target needs to be set manually; possibly other components will need the same
         if(skinnedMeshRenderer == null)
         {
-            Debug.LogError("LipSyncContextMorphTarget.Start Error: " +
+            Debug.LogWarning("LipSyncContextMorphTarget.Start Error: " +
                 "Please set the target Skinned Mesh Renderer to be controlled!");
             return;
         }

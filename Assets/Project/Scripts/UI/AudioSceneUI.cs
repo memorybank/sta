@@ -10,26 +10,19 @@ namespace Playa.UI
     {
         //[SerializeField] private Avatars.AvatarAnimator _AvatarAnimator;
         [SerializeField] private Avatars.AvatarUser _AvatarUser;
-        private StateMachine<AvatarActionState> _StateMachine;
 
         public TextMeshProUGUI VADText;
         public TextMeshProUGUI LoudnessText;
         public TextMeshProUGUI AvatarState;
         public TextMeshProUGUI LipText;
 
-        void Start()
-        {
-            //Get them_Animator, which you attach to the GameObject you intend to animate.
-            //_AvatarAnimator = GameObject.Find("Rin New Prefab").GetComponent<Avatars.AvatarAnimator>();
-            _StateMachine = _AvatarUser.AvatarActionStateMachine;
-        }
 
         // Update is called once per frame
         void Update()
         {
             VADText.text = (_AvatarUser.AvatarBrain as AudioBrain).VADDetector.GetDetectedResult();
             //LoudnessText.text = (_AvatarUser.AvatarBrain as AudioBrain).MicrophoneLoudnessDetector.GetDetectedResult();
-            AvatarState.text = _StateMachine.CurrentState.ToString();
+            AvatarState.text = _AvatarUser.AvatarActionStateMachine.CurrentState.ToString();
             LipText.text = _AvatarUser.FacialBehaviorPlanner.GetVisemeMultiplier().ToString();
         }
         

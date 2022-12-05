@@ -51,9 +51,6 @@ namespace Playa.App
                 _AppStartupConfig.LookAtTargets = new Transform[2];
                 _AppStartupConfig.LookAtTargets[0] = GameObject.Find("LookAtTarget1").transform;
                 _AppStartupConfig.LookAtTargets[1] = GameObject.Find("LookAtTarget2").transform;
-                _AppStartupConfig.IKLookAtProbes = new Transform[2];
-                _AppStartupConfig.IKLookAtProbes[0] = GameObject.Find("IKLookAtProbe1").transform;
-                _AppStartupConfig.IKLookAtProbes[1] = GameObject.Find("IKLookAtProbe2").transform;
 
                 SceneManager.LoadScene(_AppDropdown.options[index].text, LoadSceneMode.Additive);
             });

@@ -51,6 +51,10 @@ public class StageItem : BaseItem
             var path = _Objects["grass"].transform.Find("path");
 
             var plane = _Objects["grass"].transform.Find(StageProperties.PlaneName);
+            if (plane == null)
+            {
+                plane = GameUtils.FindDeepChild(_Objects["grass"].transform, StageProperties.PlaneName);
+            }
             var planeMesh = plane.GetComponent<MeshFilter>().mesh;
             plane.gameObject.AddComponent<MeshCollider>();
             plane.GetComponent<MeshCollider>().sharedMesh = planeMesh;
@@ -87,32 +91,15 @@ public class StageItem : BaseItem
             _BaseApp._CameraSwitchManager.OnInitItem(this);
 
             // Sound
-            var stableMusic = Addressables.LoadAssetAsync<AudioClip>
+            if (_StageProperties.SoundAssetPath != null)
+            {
+                var stableMusic = Addressables.LoadAssetAsync<AudioClip>
                 (_StageProperties.SoundAssetPath).WaitForCompletion();
-            ServiceLocator.AudioService.AddAudioToMixerGroup(ItemId, _ItemProperties.Name, stableMusic, Audio.AudioGroup.Music, true);
-            ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).Play();
+                ServiceLocator.AudioService.AddAudioToMixerGroup(ItemId, _ItemProperties.Name, stableMusic, Audio.AudioGroup.Music, true);
+                ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).Play();
+            }
 
             SetHeadIK();
-        }
-
-        protected override void OnAvatarSpeedChange(bool isSelfChange, float speed)
-        {
-            Debug.Log("Kandinsky on avatar speed change " + isSelfChange + " s " + speed);
-            if (isSelfChange)
-            {
-                var path = _Objects["grass"].transform.Find("path");
-                var tweenPath = path.GetComponent<DOTweenPath>();
-
-                if (speed == 0f)
-                {
-                    tweenPath.DOPause();
-                }
-                else
-                {
-                    DOTween.timeScale = speed;
-                    tweenPath.DOPlay();
-                }
-            }
         }
 
         protected void SetHeadIK()

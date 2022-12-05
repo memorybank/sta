@@ -32,22 +32,16 @@ namespace Playa.Avatars
         public int ActionStatusIndex = 0;
 
         [SerializeField] private ActionIdleState _ActionIdle;
-        [SerializeField] private StartTalkingState _StartTalking;
         [SerializeField] private IDUMetronomicState _IDUMetronomic;
         [SerializeField] private StrokeState _IDUStroke;
-        //[SerializeField] private AvatarActionState _IDURelax;
-        [SerializeField] private FinishTalkingState _FinishTalking;
         [SerializeField] private SilenceState _Silence;
         [SerializeField] private BaseIdleState _BaseIdle;
 
         public AvatarBaseState BaseIdleState => _BaseIdle;
 
         public AvatarActionState ActionIdleState => _ActionIdle;
-        public AvatarActionState StartTalking => _StartTalking;
         public AvatarActionState IDUMetronomic => _IDUMetronomic;
         public AvatarActionState IDUStroke => _IDUStroke;
-        //public AvatarActionState IDURelax => _IDURelax;
-        public AvatarActionState FinishTalking => _FinishTalking;
         public AvatarActionState SilenceState => _Silence;
 
 
@@ -57,7 +51,7 @@ namespace Playa.Avatars
         public StateMachine<AvatarBaseState> BaseStateMachine { get; private set; }
 
 
-        private void Awake()
+        private void Init()
         {
             AnimationConfig = new AvatarAnimationConfig();
             BaseStateMachine = new StateMachine<AvatarBaseState>(_BaseIdle);
@@ -66,9 +60,17 @@ namespace Playa.Avatars
 
         public void OnAvatarComponentChanged(AnimancerComponent animancerComponent)
         {
-            _Animancer = animancerComponent;
-            BaseStateMachine.CurrentState.TryReEnterState();
-            ActionStateMachine.CurrentState.TryReEnterState();
+            if (_Animancer == null)
+            {
+                _Animancer = animancerComponent;
+                Init();
+            }
+            else
+            {
+                _Animancer = animancerComponent;
+                BaseStateMachine.CurrentState.TryReEnterState();
+                ActionStateMachine.CurrentState.TryReEnterState();
+            }
         }
 
 #if UNITY_EDITOR

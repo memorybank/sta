@@ -21,13 +21,13 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
             _ItemProperties.ObjectAssetPath = "Assets/Items/knife/model/props/knife_yougujia.prefab";
             _ItemProperties.InteractionAnimPath.Add("Assets/Items/knife/idle/KnifeIdle.prefab");
-            _ItemProperties.InteractionMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.InteractionMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.ActionStatusAnimPath.Add("Assets/Items/knife/idle/KnifeIdle.prefab");
-            _ItemProperties.ActionStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.ActionStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/knife/idle/KnifeIdle.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.SubStatusAnimPath.Add("Assets/Items/knife/idle/Stabbing.prefab");
-            _ItemProperties.SubStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.Tags.Add("weapon");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

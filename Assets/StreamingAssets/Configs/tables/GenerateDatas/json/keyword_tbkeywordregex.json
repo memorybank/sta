@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Person",
+    "pattern": "我|我的|我们|我们的|你|你的|你们的|宝宝|大家"
+  },
+  {
+    "id": 2,
+    "name": "D1",
+    "pattern": "很|太|非常|相当|特别|巨|那么|无比|真|最|超|超级|辣么|有些|出奇|好|十分|敲|挺|极|相当|格外|非一般"
+  },
+  {
+    "id": 3,
+    "name": "D2",
+    "pattern": "一般|中|中等|略|略微有点|稍微有点|有点"
+  },
+  {
+    "id": 4,
+    "name": "D3",
+    "pattern": "不是很|没有很|一点不|根本不|不太|不那么|完全不"
+  },
+  {
+    "id": 5,
+    "name": "Square1",
+    "pattern": "方形|方的|方形的|方盒"
+  },
+  {
+    "id": 6,
+    "name": "Square2",
+    "pattern": "方"
+  },
+  {
+    "id": 7,
+    "name": "Triangle",
+    "pattern": "三角形|三角形的|埃菲尔铁塔|金字塔"
+  },
+  {
+    "id": 8,
+    "name": "Circle1",
+    "pattern": "圆的|圆形的|圆形|球形|圈|球形的"
+  },
+  {
+    "id": 9,
+    "name": "Circle2",
+    "pattern": "圆"
+  },
+  {
+    "id": 10,
+    "name": "Agree",
+    "pattern": "同意|赞成|赞同|ok|完美|嗯呢|嗯嗯|好呀|666|加一|没错|你说的对|挺你|支持你"
+  },
+  {
+    "id": 11,
+    "name": "Abstract",
+    "pattern": "抽象|不切实际"
+  },
+  {
+    "id": 12,
+    "name": "Drink",
+    "pattern": "喝水|喝奶茶|喝酒|喝点小酒|喝一口水|喝咖啡|喝茶|喝一杯酒|喝一杯水|喝点水|喝点酒|喝一点喝牛奶"
+  },
+  {
+    "id": 13,
+    "name": "Stir",
+    "pattern": "泡茶|搅拌|搅一下|泡咖啡"
+  },
+  {
+    "id": 14,
+    "name": "Cook",
+    "pattern": "做饭|炒菜|炒"
+  },
+  {
+    "id": 15,
+    "name": "Wash_face",
+    "pattern": "洗脸|洗把脸|洗个脸"
+  },
+  {
+    "id": 16,
+    "name": "Wash_clothes",
+    "pattern": "洗衣服|搓衣服|揉搓|洗干净"
+  },
+  {
+    "id": 17,
+    "name": "Wash_head",
+    "pattern": "洗头|洗个头"
+  },
+  {
+    "id": 18,
+    "name": "Brush",
+    "pattern": "刷牙|刷个牙"
+  },
+  {
+    "id": 19,
+    "name": "Open",
+    "pattern": "看书|看报|翻书|翻开|打开书"
+  },
+  {
+    "id": 20,
+    "name": "Play",
+    "pattern": "玩手机|玩游戏|打电动"
+  },
+  {
+    "id": 21,
+    "name": "Eat",
+    "pattern": "吃饭|吃火锅|吃面|吃什么|吃点什么|吃早饭|吃中饭|吃晚饭"
+  },
+  {
+    "id": 22,
+    "name": "Swim",
+    "pattern": "游泳|游个泳|海王|海后"
+  },
+  {
+    "id": 23,
+    "name": "Hang",
+    "pattern": "挂起来|晾衣服|晒衣服|晒被子|挂上去|吊上去"
+  },
+  {
+    "id": 24,
+    "name": "Connect",
+    "pattern": "接起来|连接|充电|充个电|沟通|衔接"
+  },
+  {
+    "id": 25,
+    "name": "Rip",
+    "pattern": "撕开|撕票|撕掉|掰开"
+  },
+  {
+    "id": 26,
+    "name": "Drive",
+    "pattern": "开车|驾驶"
+  },
+  {
+    "id": 27,
+    "name": "Flowering",
+    "pattern": "开花|变大|花开|开放|盛开"
+  },
+  {
+    "id": 28,
+    "name": "Narrow",
+    "pattern": "缩小|收回|收起|收着|变小|变窄"
+  },
+  {
+    "id": 29,
+    "name": "Push",
+    "pattern": "推过去|推开|推走"
+  },
+  {
+    "id": 30,
+    "name": "Separate",
+    "pattern": "分开|分手|分离|掰了|分了|闹掰"
+  },
+  {
+    "id": 31,
+    "name": "Combine",
+    "pattern": "谈恋爱|在一起|合一块|结合|一对"
+  },
+  {
+    "id": 32,
+    "name": "Mahjong",
+    "pattern": "打麻将|搓麻将"
+  },
+  {
+    "id": 33,
+    "name": "Play_ball",
+    "pattern": "打球|打篮球"
+  },
+  {
+    "id": 34,
+    "name": "Call",
+    "pattern": "打电话|打给你|打了个电话|给你电话|打call|电话聊"
+  },
+  {
+    "id": 35,
+    "name": "Write",
+    "pattern": "写作业|写完|记下来|写字|记录|写下来|记一下"
+  },
+  {
+    "id": 36,
+    "name": "Boating",
+    "pattern": "滑雪|划船|划动|划行|坐船|游船"
+  },
+  {
+    "id": 37,
+    "name": "Riding",
+    "pattern": "骑马"
+  },
+  {
+    "id": 38,
+    "name": "Cycling",
+    "pattern": "骑车"
+  },
+  {
+    "id": 39,
+    "name": "Motorcycle",
+    "pattern": "骑摩托"
+  },
+  {
+    "id": 40,
+    "name": "Barbecue",
+    "pattern": "烧烤|烤串|撸串"
+  },
+  {
+    "id": 41,
+    "name": "Guitar",
+    "pattern": "弹吉他|弹唱|玩吉他"
+  },
+  {
+    "id": 42,
+    "name": "Piano",
+    "pattern": "弹钢琴|弹琴"
+  },
+  {
+    "id": 43,
+    "name": "Violin",
+    "pattern": "拉琴|拉小提琴"
+  },
+  {
+    "id": 44,
+    "name": "Erhu",
+    "pattern": "拉二胡"
+  },
+  {
+    "id": 45,
+    "name": "Blow",
+    "pattern": "吹笛子|吹喇叭|萨克斯"
+  },
+  {
+    "id": 46,
+    "name": "Movie",
+    "pattern": "拍摄|拍点东西|拍电影|拍vlog|拍视频|拍段子"
+  },
+  {
+    "id": 47,
+    "name": "Shoot",
+    "pattern": "拍照"
+  },
+  {
+    "id": 48,
+    "name": "Bump",
+    "pattern": "拳击|碰撞|碰头|撞车|撞墙|撞死得了"
+  },
+  {
+    "id": 49,
+    "name": "Knock",
+    "pattern": "敲门|敲醒|敲开"
+  },
+  {
+    "id": 50,
+    "name": "Screw",
+    "pattern": "拧开|拧死|拧紧|拧上|旋转|拧瓶盖"
+  },
+  {
+    "id": 51,
+    "name": "Set",
+    "pattern": "定位|定点|钉死|定死|定时|固定"
+  },
+  {
+    "id": 52,
+    "name": "Lock",
+    "pattern": "锁住|锁死|勾住"
+  },
+  {
+    "id": 53,
+    "name": "Care",
+    "pattern": "捧在手心|呵护|捧起|捧着|关心"
+  },
+  {
+    "id": 54,
+    "name": "Pour",
+    "pattern": "倒水|倒酒"
+  },
+  {
+    "id": 55,
+    "name": "Rise",
+    "pattern": "增长|上升|起飞|向上"
+  },
+  {
+    "id": 56,
+    "name": "Fall",
+    "pattern": "下跌|下降|向下"
+  },
+  {
+    "id": 57,
+    "name": "Smoking",
+    "pattern": "抽烟|抽会儿烟|抽着烟|抽根烟|吸烟|吸根烟"
+  },
+  {
+    "id": 58,
+    "name": "Smell",
+    "pattern": "很臭|有味道|太臭|很难闻|有股怪味|臭臭的"
+  },
+  {
+    "id": 59,
+    "name": "Cover",
+    "pattern": "盖上|盖好|盖紧|覆盖"
+  },
+  {
+    "id": 60,
+    "name": "Wave",
+    "pattern": "波动|抖动|波浪|浮动|飘着|飞着"
+  },
+  {
+    "id": 61,
+    "name": "Swing",
+    "pattern": "摆动|摆尾|摇摆"
+  },
+  {
+    "id": 62,
+    "name": "Wear",
+    "pattern": "穿上|穿好|穿着|穿衣服"
+  },
+  {
+    "id": 63,
+    "name": "Wear_glasses",
+    "pattern": "戴着眼镜|戴着墨镜|带上眼镜|带上墨镜|戴眼镜|戴墨镜"
+  },
+  {
+    "id": 64,
+    "name": "Wear_a_hat",
+    "pattern": "戴着帽子|戴上帽子|戴帽子"
+  },
+  {
+    "id": 65,
+    "name": "Wear_a_ring",
+    "pattern": "戴戒指|戴上戒指|戴着戒指"
+  },
+  {
+    "id": 66,
+    "name": "Talk",
+    "pattern": "说出来|讲一讲|说一说|聊一聊|讨论|说说看|说什么|讲什么|聊一下|说两句|讲几句"
+  },
+  {
+    "id": 67,
+    "name": "Mix",
+    "pattern": "交叉|交织|混合|亲密"
+  },
+  {
+    "id": 68,
+    "name": "Exchange",
+    "pattern": "交换|互换|交流"
+  },
+  {
+    "id": 69,
+    "name": "Explosion",
+    "pattern": "张开|张大|爆炸|膨胀"
+  },
+  {
+    "id": 70,
+    "name": "Send",
+    "pattern": "送出|送给|给予|献给|呈现|呈给"
+  },
+  {
+    "id": 71,
+    "name": "Carry",
+    "pattern": "拎着|拎起"
+  },
+  {
+    "id": 72,
+    "name": "Lift",
+    "pattern": "提着|提起|提高"
+  },
+  {
+    "id": 73,
+    "name": "Hold",
+    "pattern": "握着|握紧|握住"
+  },
+  {
+    "id": 74,
+    "name": "Grab",
+    "pattern": "抓住|抓紧|抓起|抓手|抓好|理解|领悟|领会"
+  },
+  {
+    "id": 75,
+    "name": "Take",
+    "pattern": "拿出|拿住|拿好|拿给|携带|取走|运走|引领"
+  },
+  {
+    "id": 76,
+    "name": "Raise",
+    "pattern": "举起|举高|高举|抬高|吊起"
+  },
+  {
+    "id": 77,
+    "name": "Embrace",
+    "pattern": "抱着|抱紧|抱着|拥抱|搂抱"
+  },
+  {
+    "id": 78,
+    "name": "Stare",
+    "pattern": "盯着|盯住|盯死|关注|监视|观察"
+  },
+  {
+    "id": 79,
+    "name": "Grind",
+    "pattern": "磨合|摩擦|争执|分歧|不和"
+  },
+  {
+    "id": 80,
+    "name": "Count1",
+    "pattern": "第1|首先"
+  },
+  {
+    "id": 81,
+    "name": "Count2",
+    "pattern": "第2|其次"
+  },
+  {
+    "id": 82,
+    "name": "Count3",
+    "pattern": "第3"
+  },
+  {
+    "id": 83,
+    "name": "Count4",
+    "pattern": "第4"
+  },
+  {
+    "id": 84,
+    "name": "Count5",
+    "pattern": "第5"
+  },
+  {
+    "id": 85,
+    "name": "Count6",
+    "pattern": "第6"
+  },
+  {
+    "id": 86,
+    "name": "Count7",
+    "pattern": "第7"
+  },
+  {
+    "id": 87,
+    "name": "Count8",
+    "pattern": "第8"
+  },
+  {
+    "id": 88,
+    "name": "Count9",
+    "pattern": "第9"
+  },
+  {
+    "id": 89,
+    "name": "Count10",
+    "pattern": "第十"
+  },
+  {
+    "id": 90,
+    "name": "Down",
+    "pattern": "下面|在下面|脚下|这里"
+  },
+  {
+    "id": 91,
+    "name": "Up",
+    "pattern": "上面|在上面|天上"
+  },
+  {
+    "id": 92,
+    "name": "There",
+    "pattern": "那边|在那边|前面|前边"
+  },
+  {
+    "id": 93,
+    "name": "Rear",
+    "pattern": "后面|后面的|后方|刚去了|跟我来|走着|一起"
+  },
+  {
+    "id": 94,
+    "name": "Come",
+    "pattern": "过来|来一下|来呀|来这边"
+  },
+  {
+    "id": 95,
+    "name": "Go",
+    "pattern": "去吧|跪安吧|退下吧|快去吧|走吧"
+  },
+  {
+    "id": 96,
+    "name": "Small",
+    "pattern": "小|瘦|窄|细"
+  },
+  {
+    "id": 97,
+    "name": "High1",
+    "pattern": "高大|深|厚"
+  },
+  {
+    "id": 98,
+    "name": "High2",
+    "pattern": "一般高|中高|中等高|略高|略微有点高|稍微有点高|有点高"
+  },
+  {
+    "id": 99,
+    "name": "Big1",
+    "pattern": "大|胖|宽|粗"
+  },
+  {
+    "id": 100,
+    "name": "Big2",
+    "pattern": "一般胖|略胖||微胖|有点胖"
+  },
+  {
+    "id": 101,
+    "name": "Low",
+    "pattern": "矮|低|浅|薄"
+  },
+  {
+    "id": 102,
+    "name": "DontCare",
+    "pattern": "随便|都行|都ok|无所谓|决定就好|说了算|都可以"
+  },
+  {
+    "id": 103,
+    "name": "Query1",
+    "pattern": "可疑|奇怪|纳闷|不懂"
+  },
+  {
+    "id": 104,
+    "name": "Query2",
+    "pattern": "真的假的|莫名其妙|谁知道啊|不明白|不了解|不知道|不理解"
+  },
+  {
+    "id": 105,
+    "name": "Reject",
+    "pattern": "否决|拒绝|不同意|不愿意|不不|走开|少来|no|stop|停|stay away|达咩"
+  },
+  {
+    "id": 106,
+    "name": "StepByStep",
+    "pattern": "溜了溜了|我撤了|靠近"
+  },
+  {
+    "id": 107,
+    "name": "ListenToMe",
+    "pattern": "听我说|肃静|都给我安静"
+  },
+  {
+    "id": 108,
+    "name": "Part",
+    "pattern": "这部分|一部分|关键|核心"
+  },
+  {
+    "id": 109,
+    "name": "Stop",
+    "pattern": "停下|稍等|等一下|等等|先等一下"
+  },
+  {
+    "id": 110,
+    "name": "Greeting",
+    "pattern": "hello|你好|hi|好久不见|哈喽|嗨"
+  },
+  {
+    "id": 111,
+    "name": "Comeon",
+    "pattern": "加油|come on|别放弃|冲鸭"
+  },
+  {
+    "id": 112,
+    "name": "Unitive",
+    "pattern": "团结起来|强强联合|全力配合"
+  },
+  {
+    "id": 113,
+    "name": "Fighting1",
+    "pattern": "好哦|棒|帅|有才|厉害|机智|屌|牛|帅|优秀|漂亮"
+  },
+  {
+    "id": 114,
+    "name": "Fighting2",
+    "pattern": "well done|干得好|点赞|做得好|干得漂亮|nice|厉害了|了不起|yyds|great job|hooray|一定可以|棒棒哒|绝绝子"
+  },
+  {
+    "id": 115,
+    "name": "Gloomy1",
+    "pattern": "郁闷|心塞|苦恼|无语|难受|想哭"
+  },
+  {
+    "id": 116,
+    "name": "Gloomy2",
+    "pattern": "有小情绪|心情复杂|心情不好|心里苦|emo了|太难了|阴公"
+  },
+  {
+    "id": 117,
+    "name": "Like1",
+    "pattern": "喜欢|欣赏|喜爱|爱"
+  },
+  {
+    "id": 118,
+    "name": "Like2",
+    "pattern": "三连|比心|爱你|么么哒|love you"
+  },
+  {
+    "id": 119,
+    "name": "ShutUp1",
+    "pattern": "闭嘴|不说|不讲|别说|别讲|别说话|打住|住口"
+  },
+  {
+    "id": 120,
+    "name": "ShutUp2",
+    "pattern": "你快别说了|你可闭嘴吧|不会说别说|闭嘴|打住|住口"
+  },
+  {
+    "id": 121,
+    "name": "Cry",
+    "pattern": "受伤|委屈|哭死了|要哭了|好感动|呜呜呜|泣不成声|绷不住了|蚌埠住了|破防了"
+  },
+  {
+    "id": 122,
+    "name": "Awkward",
+    "pattern": "尴尬|无语|难堪|为难|狼狈|难堪|不自在|囧|差不多得了|有点生气|小丑竟是我自己"
+  },
+  {
+    "id": 123,
+    "name": "Angry",
+    "pattern": "气|生气|气愤|恼火|过分|无耻|火大|气死|气到变形|气到冒烟|忍你很久|离我远点|气死我了|气死宝宝了|不开心"
+  },
+  {
+    "id": 124,
+    "name": "Drama",
+    "pattern": "抓狂|抓马|不爽|疯狂|烦躁|drama|要疯|要骂人|崩溃|爆发|要疯了"
+  },
+  {
+    "id": 125,
+    "name": "Happy",
+    "pattern": "开心|愉快|happy|嗨|满意|嗨森|嘿嘿|嘻嘻|开心到飞起|开心到模糊|浪里个浪"
+  },
+  {
+    "id": 126,
+    "name": "Tired",
+    "pattern": "累成狗|被掏空|困死|累死|累瘫|累趴|困|累"
+  },
+  {
+    "id": 127,
+    "name": "Fuck",
+    "pattern": "二逼|垃圾|沙雕|傻屌|傻缺|脑子有病|草泥马|操你妈|妈卖批|去你妈的|吃屎啦|人渣|fuck|滚|tmd|你丫的|混蛋|贱人|白痴|猪头|傻子|傻逼|去死吧|滚蛋|智障|脑残|变态|神经病|死扑街|shift|食屎啦|我操|握草|大傻逼"
+  },
+  {
+    "id": 128,
+    "name": "Unlucky",
+    "pattern": "衰|倒霉|糟糕|晦气|不顺|点背|倒大霉|倒霉死|倒霉透|八辈子霉|中头彩|倒了血霉"
+  },
+  {
+    "id": 129,
+    "name": "Worry",
+    "pattern": "紧张|焦急|焦虑|心急|焦灼|忐忑|不安|危急|慌张|紧绷|担心|着急|心慌慌"
+  },
+  {
+    "id": 130,
+    "name": "Disdain",
+    "pattern": "懒得理|不想理|讨厌死|弱爆|装逼|把你能的|翻白眼|怪我咯|好大的口气"
+  },
+  {
+    "id": 131,
+    "name": "Contempt1",
+    "pattern": "鄙视|藐视|笨蛋|窝囊废|孬种|小垃圾|大猪蹄子|辣鸡|幼稚鬼|渣渣|low"
+  },
+  {
+    "id": 132,
+    "name": "Contempt2",
+    "pattern": "差|逊|low"
+  },
+  {
+    "id": 133,
+    "name": "Apologize",
+    "pattern": "我的错|sorry|不敢了|原谅我|知道错了|别生气|不是故意的|知道错了|向你道歉|以死谢罪|我该死|求原谅|我错了|对不起|对不住|原谅我|我道歉|我错了"
+  },
+  {
+    "id": 134,
+    "name": "Laugh",
+    "pattern": "好笑|搞笑|绝|妙|笑死|笑疯|哭笑不得|笑出猪叫|笑出鱼尾纹|真是够了"
+  },
+  {
+    "id": 135,
+    "name": "Speechless",
+    "pattern": "哭笑不得|脑袋疼|脑壳疼|比较尴尬|不忍直视|辣眼睛"
+  },
+  {
+    "id": 136,
+    "name": "Yeah",
+    "pattern": "欧耶|好耶|好开心|赢了|成了|胜利了|yeah|yep"
+  },
+  {
+    "id": 137,
+    "name": "Gossip",
+    "pattern": "说来我听听|吃瓜|八卦|围观|有瓜吗|看热闹|愿闻其详"
+  },
+  {
+    "id": 138,
+    "name": "Wow",
+    "pattern": "哇哦|震惊|我的天|我的妈|哎哟喂|天啦噜|哦买噶|Oh my god|卧槽|这是我能看的"
+  },
+  {
+    "id": 139,
+    "name": "Emm",
+    "pattern": "说什么好|一言难尽||从哪说起|Emm|说你什么好"
+  },
+  {
+    "id": 140,
+    "name": "Respect",
+    "pattern": "失敬|牛逼|厉害厉害|好社会|你厉害|respect|惹不起|社会人|是个狠人|你是我的姐"
+  },
+  {
+    "id": 141,
+    "name": "Sigh",
+    "pattern": "哎|生活不易|没办法|不想面对|不容易"
+  },
+  {
+    "id": 142,
+    "name": "Mentality",
+    "pattern": "心态炸了|心态崩了|裂开了|麻了|崩溃"
+  },
+  {
+    "id": 143,
+    "name": "Beat",
+    "pattern": "揍你|揍死你|揍扁你|锤死你|让你胡说|让你乱说|让你瞎说|别惹我|打你哦"
+  },
+  {
+    "id": 144,
+    "name": "Promise",
+    "pattern": "我承诺|我发誓|绝对不鸽|说到做到|我会对你好|我保证|你就放心吧|我答应你|使命必达|说好了|交给我吧|我说话算数"
+  },
+  {
+    "id": 145,
+    "name": "Reply",
+    "pattern": "是的|没错|对的|知道了|可以的|应该的|收到"
+  },
+  {
+    "id": 146,
+    "name": "Complain",
+    "pattern": "容易吗我|命苦|坑爹啊|烦死了|压力大|太过分了|能怎么办|叫什么事"
+  },
+  {
+    "id": 147,
+    "name": "Poverty1",
+    "pattern": "没钱|没有钱|手头有些紧|穷死了|穷怕了|钱包空空|吃土|我哪有钱"
+  },
+  {
+    "id": 148,
+    "name": "Poverty2",
+    "pattern": "穷"
+  },
+  {
+    "id": 149,
+    "name": "Invite",
+    "pattern": "走起|约吗|一起去|一起玩|三缺一|来一杯"
+  },
+  {
+    "id": 150,
+    "name": "Congratulate",
+    "pattern": "恭喜|祝贺"
+  },
+  {
+    "id": 151,
+    "name": "Notcare",
+    "pattern": "没兴趣|没劲|无聊|没意思|不关心|不在意|不在乎"
+  },
+  {
+    "id": 152,
+    "name": "Shh",
+    "pattern": "嘘||安静一点|小声一点|小声点"
+  },
+  {
+    "id": 153,
+    "name": "Cute",
+    "pattern": "可爱|可人|听话|聪明|迷人|单纯|纯洁|乖巧|调皮|天真|可可爱爱|萌萌哒|么么哒|卡哇伊"
+  },
+  {
+    "id": 154,
+    "name": "Sad",
+    "pattern": "伤心|心痛|忧伤|心碎|需要安慰"
+  },
+  {
+    "id": 155,
+    "name": "Afraid",
+    "pattern": "害怕|可怕|惊悚|恐怖|吓人|怕怕|吓死|不要再说|让人害怕|你是魔鬼"
+  },
+  {
+    "id": 156,
+    "name": "Bye",
+    "pattern": "拜拜|再见|下次见|下次聊|回头见|回见|待会见|多保重|告辞|友尽|拉黑|删了吧|互删吧|后会有期|得走了|回聊"
+  },
+  {
+    "id": 157,
+    "name": "Many1",
+    "pattern": "数不胜数|成千上万|满山遍野|不计其数|数以万计|林林总总|数不清|繁复"
+  },
+  {
+    "id": 158,
+    "name": "Many2",
+    "pattern": "多"
+  },
+  {
+    "id": 159,
+    "name": "Less1",
+    "pattern": "凤毛麟角|屈指可数|寥若星辰|寥寥无几|星星点点"
+  },
+  {
+    "id": 160,
+    "name": "Less2",
+    "pattern": "少"
+  },
+  {
+    "id": 161,
+    "name": "Far",
+    "pattern": "远|遥远"
+  },
+  {
+    "id": 162,
+    "name": "Near",
+    "pattern": "近|靠近"
+  },
+  {
+    "id": 163,
+    "name": "Progressive1",
+    "pattern": "不但|不仅|不止|不光"
+  },
+  {
+    "id": 164,
+    "name": "Progressive2",
+    "pattern": "而且"
+  },
+  {
+    "id": 165,
+    "name": "Tied1",
+    "pattern": "一方面|或者|有时"
+  },
+  {
+    "id": 166,
+    "name": "Tied2",
+    "pattern": "可以"
+  },
+  {
+    "id": 167,
+    "name": "Tied3",
+    "pattern": "另一方面|又或|也可以"
+  },
+  {
+    "id": 168,
+    "name": "TurningPoint1",
+    "pattern": "虽然|尽管"
+  },
+  {
+    "id": 169,
+    "name": "TurningPoint2",
+    "pattern": "但是|可是|却|还"
+  },
+  {
+    "id": 170,
+    "name": "Undertake1",
+    "pattern": "首先|最重要|必须|一定"
+  },
+  {
+    "id": 171,
+    "name": "Undertake2",
+    "pattern": "然后|其次"
+  },
+  {
+    "id": 172,
+    "name": "Undertake3",
+    "pattern": "最后"
+  },
+  {
+    "id": 173,
+    "name": "Choose1",
+    "pattern": "与其|宁可|要么"
+  },
+  {
+    "id": 174,
+    "name": "Choose2",
+    "pattern": "不如|也不"
+  },
+  {
+    "id": 175,
+    "name": "Assumption1",
+    "pattern": "如果|假如|倘若|要是|若要|假若|如若|即使|就算|纵然|哪怕|即便"
+  },
+  {
+    "id": 176,
+    "name": "Assumption2",
+    "pattern": "就"
+  },
+  {
+    "id": 177,
+    "name": "CauseAndEffect1",
+    "pattern": "因为|我认为|我觉得|应该"
+  },
+  {
+    "id": 178,
+    "name": "CauseAndEffect2",
+    "pattern": "所以|因此"
+  },
+  {
+    "id": 179,
+    "name": "Condition1",
+    "pattern": "除非"
+  },
+  {
+    "id": 180,
+    "name": "Condition2",
+    "pattern": "不然"
+  }
+]

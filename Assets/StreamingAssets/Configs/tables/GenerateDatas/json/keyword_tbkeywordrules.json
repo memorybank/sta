@@ -1,0 +1,2342 @@
+[
+  {
+    "id": 1,
+    "name": "Square",
+    "rule": [
+      "(Square1)",
+      "(D1)(Square2)",
+      "(D2)(Square2)",
+      "(D3)(Square2)"
+    ],
+    "anim": [
+      1001
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Triangle",
+    "rule": [
+      "(Triangle)"
+    ],
+    "anim": [
+      1002
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Circle",
+    "rule": [
+      "(Circle1)",
+      "(D1)(Circle2)",
+      "(D2)(Circle2)",
+      "(D3)(Circle2)"
+    ],
+    "anim": [
+      1003
+    ],
+    "facial_expression": [
+      3
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Agree",
+    "rule": [
+      "(Agree)"
+    ],
+    "anim": [
+      1004
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Abstract",
+    "rule": [
+      "(Abstract)"
+    ],
+    "anim": [
+      1005
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Drink",
+    "rule": [
+      "(Drink)"
+    ],
+    "anim": [
+      1301
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Stir",
+    "rule": [
+      "(Stir)"
+    ],
+    "anim": [
+      1302
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cook",
+    "rule": [
+      "(Cook)"
+    ],
+    "anim": [
+      1303
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Wash_face",
+    "rule": [
+      "(Wash_face)"
+    ],
+    "anim": [
+      1304
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wash_clothes",
+    "rule": [
+      "(Wash_clothes)"
+    ],
+    "anim": [
+      1305
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Wash_head",
+    "rule": [
+      "(Wash_head)"
+    ],
+    "anim": [
+      1306
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Brush",
+    "rule": [
+      "(Brush)"
+    ],
+    "anim": [
+      1307
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Open",
+    "rule": [
+      "(Open)"
+    ],
+    "anim": [
+      1308
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Play",
+    "rule": [
+      "(Play)"
+    ],
+    "anim": [
+      1309
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Eat",
+    "rule": [
+      "(Eat)"
+    ],
+    "anim": [
+      1310
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Swim",
+    "rule": [
+      "(Swim)"
+    ],
+    "anim": [
+      1311
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Hang",
+    "rule": [
+      "(Hang)"
+    ],
+    "anim": [
+      1312
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Connect",
+    "rule": [
+      "(Connect)"
+    ],
+    "anim": [
+      1313
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rip",
+    "rule": [
+      "(Rip)"
+    ],
+    "anim": [
+      1314
+    ],
+    "facial_expression": [
+      1
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Drive",
+    "rule": [
+      "(Drive)"
+    ],
+    "anim": [
+      1315
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Flowering",
+    "rule": [
+      "(Flowering)"
+    ],
+    "anim": [
+      1316
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Narrow",
+    "rule": [
+      "(Narrow)"
+    ],
+    "anim": [
+      1317
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Push",
+    "rule": [
+      "(Push)"
+    ],
+    "anim": [
+      1318
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Separate",
+    "rule": [
+      "(Separate)"
+    ],
+    "anim": [
+      1319
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Combine",
+    "rule": [
+      "(Combine)"
+    ],
+    "anim": [
+      1320
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Mahjong",
+    "rule": [
+      "(Mahjong)"
+    ],
+    "anim": [
+      1321
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Play_ball",
+    "rule": [
+      "(Play_ball)"
+    ],
+    "anim": [
+      1322
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Call",
+    "rule": [
+      "(Call)"
+    ],
+    "anim": [
+      1323
+    ],
+    "facial_expression": [
+      3
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Write",
+    "rule": [
+      "(Write)"
+    ],
+    "anim": [
+      1324
+    ],
+    "facial_expression": [
+      1
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Boating",
+    "rule": [
+      "(Boating)"
+    ],
+    "anim": [
+      1325
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Riding",
+    "rule": [
+      "(Riding)"
+    ],
+    "anim": [
+      1326
+    ],
+    "facial_expression": [
+      3
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Cycling",
+    "rule": [
+      "(Cycling)"
+    ],
+    "anim": [
+      1327
+    ],
+    "facial_expression": [
+      1
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Motorcycle",
+    "rule": [
+      "(Motorcycle)"
+    ],
+    "anim": [
+      1328
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Barbecue",
+    "rule": [
+      "(Barbecue)"
+    ],
+    "anim": [
+      1329
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Guitar",
+    "rule": [
+      "(Guitar)"
+    ],
+    "anim": [
+      1330
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Piano",
+    "rule": [
+      "(Piano)"
+    ],
+    "anim": [
+      1331
+    ],
+    "facial_expression": [
+      1
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Violin",
+    "rule": [
+      "(Violin)"
+    ],
+    "anim": [
+      1332
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Erhu",
+    "rule": [
+      "(Erhu)"
+    ],
+    "anim": [
+      1333
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Blow",
+    "rule": [
+      "(Blow)"
+    ],
+    "anim": [
+      1334
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Movie",
+    "rule": [
+      "(Movie)"
+    ],
+    "anim": [
+      1335
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shoot",
+    "rule": [
+      "(Shoot)"
+    ],
+    "anim": [
+      1336
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Bump",
+    "rule": [
+      "(Bump)"
+    ],
+    "anim": [
+      1337
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Knock",
+    "rule": [
+      "(Knock)"
+    ],
+    "anim": [
+      1338
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Screw",
+    "rule": [
+      "(Screw)"
+    ],
+    "anim": [
+      1339
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Set",
+    "rule": [
+      "(Set)"
+    ],
+    "anim": [
+      1340
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Lock",
+    "rule": [
+      "(Lock)"
+    ],
+    "anim": [
+      1341
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Care",
+    "rule": [
+      "(Care)"
+    ],
+    "anim": [
+      1342
+    ],
+    "facial_expression": [
+      6
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Pour",
+    "rule": [
+      "(Pour)"
+    ],
+    "anim": [
+      1343
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Rise",
+    "rule": [
+      "(Rise)"
+    ],
+    "anim": [
+      1344
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Fall",
+    "rule": [
+      "(Fall)"
+    ],
+    "anim": [
+      1345
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Smoking",
+    "rule": [
+      "(Smoking)"
+    ],
+    "anim": [
+      1346
+    ],
+    "facial_expression": [
+      3
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Smell",
+    "rule": [
+      "(Smell)"
+    ],
+    "anim": [
+      1347
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Cover",
+    "rule": [
+      "(Cover)"
+    ],
+    "anim": [
+      1348
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Wave",
+    "rule": [
+      "(Wave)"
+    ],
+    "anim": [
+      1349
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Swing",
+    "rule": [
+      "(Swing)"
+    ],
+    "anim": [
+      1350
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Wear",
+    "rule": [
+      "(Wear)"
+    ],
+    "anim": [
+      1351
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Wear_glasses",
+    "rule": [
+      "(Wear_glasses)"
+    ],
+    "anim": [
+      1352
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Wear_a_hat",
+    "rule": [
+      "(Wear_a_hat)"
+    ],
+    "anim": [
+      1353
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Wear_a_ring",
+    "rule": [
+      "(Wear_a_ring)"
+    ],
+    "anim": [
+      1354
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Talk",
+    "rule": [
+      "(Talk)"
+    ],
+    "anim": [
+      1355
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Mix",
+    "rule": [
+      "(Mix)"
+    ],
+    "anim": [
+      1356
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Exchange",
+    "rule": [
+      "(Exchange)"
+    ],
+    "anim": [
+      1357
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Explosion",
+    "rule": [
+      "(Explosion)"
+    ],
+    "anim": [
+      1358
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Send",
+    "rule": [
+      "(Send)"
+    ],
+    "anim": [
+      1359
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Carry",
+    "rule": [
+      "(Carry)"
+    ],
+    "anim": [
+      1360
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 66,
+    "name": "Lift",
+    "rule": [
+      "(Lift)"
+    ],
+    "anim": [
+      1361
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Hold",
+    "rule": [
+      "(Hold)"
+    ],
+    "anim": [
+      1363
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Grab",
+    "rule": [
+      "(Grab)"
+    ],
+    "anim": [
+      1364
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Take",
+    "rule": [
+      "(Take)"
+    ],
+    "anim": [
+      1365
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Raise",
+    "rule": [
+      "(Raise)"
+    ],
+    "anim": [
+      1366
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Embrace",
+    "rule": [
+      "(Embrace)"
+    ],
+    "anim": [
+      1368
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 72,
+    "name": "Stare",
+    "rule": [
+      "(Stare)"
+    ],
+    "anim": [
+      1369
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Grind",
+    "rule": [
+      "(Grind)"
+    ],
+    "anim": [
+      1371
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Count1",
+    "rule": [
+      "(Count1)"
+    ],
+    "anim": [
+      1517
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Count2",
+    "rule": [
+      "(Count2)"
+    ],
+    "anim": [
+      1518
+    ],
+    "facial_expression": [
+      1
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Count3",
+    "rule": [
+      "(Count3)"
+    ],
+    "anim": [
+      1519
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Count4",
+    "rule": [
+      "(Count4)"
+    ],
+    "anim": [
+      1520
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Count5",
+    "rule": [
+      "(Count5)"
+    ],
+    "anim": [
+      1521
+    ],
+    "facial_expression": [
+      0
+    ],
+    "facial_expression_amplitude": [
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Count6",
+    "rule": [
+      "(Count6)"
+    ],
+    "anim": [
+      1522
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      25
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Count7",
+    "rule": [
+      "(Count7)"
+    ],
+    "anim": [
+      1523
+    ],
+    "facial_expression": [
+      2
+    ],
+    "facial_expression_amplitude": [
+      75
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Count8",
+    "rule": [
+      "(Count8)"
+    ],
+    "anim": [
+      1524
+    ],
+    "facial_expression": [
+      5
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Count9",
+    "rule": [
+      "(Count9)"
+    ],
+    "anim": [
+      1525
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      50
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Count10",
+    "rule": [
+      "(Count10)"
+    ],
+    "anim": [
+      1526
+    ],
+    "facial_expression": [
+      4
+    ],
+    "facial_expression_amplitude": [
+      100
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Down",
+    "rule": [
+      "(Down)"
+    ],
+    "anim": [
+      1527
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 85,
+    "name": "Up",
+    "rule": [
+      "(Up)"
+    ],
+    "anim": [
+      1528
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 86,
+    "name": "There",
+    "rule": [
+      "(There)"
+    ],
+    "anim": [
+      1529
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 87,
+    "name": "Rear",
+    "rule": [
+      "(Rear)"
+    ],
+    "anim": [
+      1530
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 88,
+    "name": "Come",
+    "rule": [
+      "(Come)"
+    ],
+    "anim": [
+      1531
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 89,
+    "name": "Go",
+    "rule": [
+      "(Go)"
+    ],
+    "anim": [
+      1532
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 90,
+    "name": "Small",
+    "rule": [
+      "(D1)(Small)",
+      "(D2)(Small)",
+      "(D3)(Big1)"
+    ],
+    "anim": [
+      1533
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 91,
+    "name": "High1",
+    "rule": [
+      "(D1)(High1)",
+      "(D3)(Low)"
+    ],
+    "anim": [
+      1538
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 92,
+    "name": "High2",
+    "rule": [
+      "(High2)"
+    ],
+    "anim": [
+      1537
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 93,
+    "name": "Big1",
+    "rule": [
+      "(D1)(Big1)",
+      "(D2)(Big1)",
+      "(D3)(Small)"
+    ],
+    "anim": [
+      1535
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 94,
+    "name": "Big2",
+    "rule": [
+      "(Big2)"
+    ],
+    "anim": [
+      1534
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 95,
+    "name": "Low",
+    "rule": [
+      "(D1)(Low)",
+      "(D3)(High1)"
+    ],
+    "anim": [
+      1536
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 96,
+    "name": "DontCare",
+    "rule": [
+      "(DontCare)"
+    ],
+    "anim": [
+      2002
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 97,
+    "name": "Query",
+    "rule": [
+      "(D1)(Query1)",
+      "(Query2)"
+    ],
+    "anim": [
+      2006
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 98,
+    "name": "Reject",
+    "rule": [
+      "(Reject)"
+    ],
+    "anim": [
+      2008
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 99,
+    "name": "StepByStep",
+    "rule": [
+      "(StepByStep)"
+    ],
+    "anim": [
+      2009
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 100,
+    "name": "ListenToMe",
+    "rule": [
+      "(ListenToMe)"
+    ],
+    "anim": [
+      2010
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 101,
+    "name": "Part",
+    "rule": [
+      "(Part)"
+    ],
+    "anim": [
+      2012
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 102,
+    "name": "Stop",
+    "rule": [
+      "(Stop)"
+    ],
+    "anim": [
+      2015
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 103,
+    "name": "Greeting",
+    "rule": [
+      "(Greeting)"
+    ],
+    "anim": [
+      2017
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 104,
+    "name": "Comeon",
+    "rule": [
+      "(Comeon)"
+    ],
+    "anim": [
+      2019
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 105,
+    "name": "Unitive",
+    "rule": [
+      "(Unitive)"
+    ],
+    "anim": [
+      2023
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 106,
+    "name": "Fighting1",
+    "rule": [
+      "(D1)(Fighting1)",
+      "(Fighting2)"
+    ],
+    "anim": [
+      2028
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 107,
+    "name": "Gloomy1",
+    "rule": [
+      "(D1)(Gloomy1)",
+      "(Gloomy2)"
+    ],
+    "anim": [
+      2030
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 108,
+    "name": "Like1",
+    "rule": [
+      "(D1)(Like1)",
+      "(Like2)"
+    ],
+    "anim": [
+      2031
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 109,
+    "name": "ShutUp1",
+    "rule": [
+      "(Person)(ShutUp1)",
+      "(ShutUp2)"
+    ],
+    "anim": [
+      2034
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 110,
+    "name": "Cry",
+    "rule": [
+      "(Cry)"
+    ],
+    "anim": [
+      2035
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 111,
+    "name": "Awkward",
+    "rule": [
+      "(Awkward)"
+    ],
+    "anim": [
+      2036
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 112,
+    "name": "Angry",
+    "rule": [
+      "(Angry)"
+    ],
+    "anim": [
+      2037
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 113,
+    "name": "Drama",
+    "rule": [
+      "(Drama)"
+    ],
+    "anim": [
+      2038
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 114,
+    "name": "Happy",
+    "rule": [
+      "(Happy)"
+    ],
+    "anim": [
+      2041
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 115,
+    "name": "Tired",
+    "rule": [
+      "(Tired)"
+    ],
+    "anim": [
+      2043
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 116,
+    "name": "Fuck",
+    "rule": [
+      "(Fuck)"
+    ],
+    "anim": [
+      2044
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 117,
+    "name": "Unlucky",
+    "rule": [
+      "(Unlucky)"
+    ],
+    "anim": [
+      2046
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 118,
+    "name": "Worry",
+    "rule": [
+      "(Worry)"
+    ],
+    "anim": [
+      2048
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 119,
+    "name": "Disdain",
+    "rule": [
+      "(Disdain)"
+    ],
+    "anim": [
+      2049
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 120,
+    "name": "Contempt1",
+    "rule": [
+      "(Contempt1)",
+      "(D1)(Contempt2)"
+    ],
+    "anim": [
+      2050
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 121,
+    "name": "Apologize",
+    "rule": [
+      "(Apologize)"
+    ],
+    "anim": [
+      2051
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 122,
+    "name": "Laugh",
+    "rule": [
+      "(Laugh)"
+    ],
+    "anim": [
+      2055
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 123,
+    "name": "Speechless",
+    "rule": [
+      "(Speechless)"
+    ],
+    "anim": [
+      2056
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 124,
+    "name": "Yeah",
+    "rule": [
+      "(Yeah)"
+    ],
+    "anim": [
+      2057
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 125,
+    "name": "Gossip",
+    "rule": [
+      "(Gossip)"
+    ],
+    "anim": [
+      2058
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 126,
+    "name": "Wow",
+    "rule": [
+      "(Wow)"
+    ],
+    "anim": [
+      2059
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 127,
+    "name": "Emm",
+    "rule": [
+      "(Emm)"
+    ],
+    "anim": [
+      2060
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 128,
+    "name": "Respect",
+    "rule": [
+      "(Respect)"
+    ],
+    "anim": [
+      2061
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 129,
+    "name": "Sigh",
+    "rule": [
+      "(Sigh)"
+    ],
+    "anim": [
+      2062
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 130,
+    "name": "Mentality",
+    "rule": [
+      "(Mentality)"
+    ],
+    "anim": [
+      2064
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 131,
+    "name": "Beat",
+    "rule": [
+      "(Beat)"
+    ],
+    "anim": [
+      2065
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 132,
+    "name": "Promise",
+    "rule": [
+      "(Promise)"
+    ],
+    "anim": [
+      2069
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 133,
+    "name": "Reply",
+    "rule": [
+      "(Reply"
+    ],
+    "anim": [
+      2071
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 134,
+    "name": "Complain",
+    "rule": [
+      "(Complain)"
+    ],
+    "anim": [
+      2073
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 135,
+    "name": "Poverty1",
+    "rule": [
+      "(Poverty1)",
+      "(D1)(Poverty2)"
+    ],
+    "anim": [
+      2074
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 136,
+    "name": "Invite",
+    "rule": [
+      "(Invite)"
+    ],
+    "anim": [
+      2075
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 137,
+    "name": "Congratulate",
+    "rule": [
+      "(Congratulate)"
+    ],
+    "anim": [
+      2076
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 138,
+    "name": "Notcare",
+    "rule": [
+      "(Notcare)"
+    ],
+    "anim": [
+      2077
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 139,
+    "name": "Shh",
+    "rule": [
+      "(Shh)"
+    ],
+    "anim": [
+      2078
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 140,
+    "name": "Cute",
+    "rule": [
+      "(Cute)"
+    ],
+    "anim": [
+      2080
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 141,
+    "name": "Sad",
+    "rule": [
+      "(Sad)"
+    ],
+    "anim": [
+      2079
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 142,
+    "name": "Afraid",
+    "rule": [
+      "(Afraid)"
+    ],
+    "anim": [
+      2081
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 143,
+    "name": "Bye",
+    "rule": [
+      "(Bye)"
+    ],
+    "anim": [
+      2082
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 144,
+    "name": "Many1",
+    "rule": [
+      "(Many1)"
+    ],
+    "anim": [
+      2083
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 145,
+    "name": "Many2",
+    "rule": [
+      "(D1)(Many2)",
+      "(D3)(Less2)"
+    ],
+    "anim": [
+      2083
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 146,
+    "name": "Less1",
+    "rule": [
+      "(Many1)"
+    ],
+    "anim": [
+      2084
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 147,
+    "name": "Less2",
+    "rule": [
+      "(D1)(Less2)",
+      "(D3)(Many2)"
+    ],
+    "anim": [
+      2084
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 148,
+    "name": "Far",
+    "rule": [
+      "(D1)(Far)",
+      "(D3)(Near)"
+    ],
+    "anim": [
+      2085
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 149,
+    "name": "Near",
+    "rule": [
+      "(D1)(Near)",
+      "(D3)(Far)"
+    ],
+    "anim": [
+      2086
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 150,
+    "name": "Progressive1",
+    "rule": [
+      "(Progressive1"
+    ],
+    "anim": [
+      2087
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 151,
+    "name": "Progressive2",
+    "rule": [
+      "(Progressive2"
+    ],
+    "anim": [
+      2088
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 152,
+    "name": "Tied",
+    "rule": [
+      "(Tied1)",
+      "(Person)(Tied2)"
+    ],
+    "anim": [
+      2089
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 154,
+    "name": "Tied3",
+    "rule": [
+      "(Tied3)"
+    ],
+    "anim": [
+      2090
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 155,
+    "name": "TurningPoint1",
+    "rule": [
+      "(TurningPoint1)"
+    ],
+    "anim": [
+      2091
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 156,
+    "name": "TurningPoint2",
+    "rule": [
+      "(TurningPoint2)"
+    ],
+    "anim": [
+      2092
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 157,
+    "name": "Undertake1",
+    "rule": [
+      "(Undertake1)"
+    ],
+    "anim": [
+      2093
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 158,
+    "name": "Undertake2",
+    "rule": [
+      "(Undertake2)"
+    ],
+    "anim": [
+      2094
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 159,
+    "name": "Undertake3",
+    "rule": [
+      "(Undertake3)"
+    ],
+    "anim": [
+      2095
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 160,
+    "name": "Choose1",
+    "rule": [
+      "(Choose1)"
+    ],
+    "anim": [
+      2096
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 161,
+    "name": "Choose2",
+    "rule": [
+      "(Choose2)"
+    ],
+    "anim": [
+      2097
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 162,
+    "name": "Assumption1",
+    "rule": [
+      "(Assumption1)"
+    ],
+    "anim": [
+      2098
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 163,
+    "name": "Assumption2",
+    "rule": [
+      "(Assumption2)"
+    ],
+    "anim": [
+      2099
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 164,
+    "name": "CauseAndEffect1",
+    "rule": [
+      "(CauseAndEffect1)"
+    ],
+    "anim": [
+      2100
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 165,
+    "name": "CauseAndEffect2",
+    "rule": [
+      "(CauseAndEffect2)"
+    ],
+    "anim": [
+      2101
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 166,
+    "name": "Condition1",
+    "rule": [
+      "(Condition1)"
+    ],
+    "anim": [
+      2102
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  },
+  {
+    "id": 167,
+    "name": "Condition2",
+    "rule": [
+      "(Condition2)"
+    ],
+    "anim": [
+      2103
+    ],
+    "facial_expression": [],
+    "facial_expression_amplitude": []
+  }
+]

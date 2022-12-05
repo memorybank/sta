@@ -24,9 +24,9 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/skateboard/model/props/skateboard_yougujia.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/skateboard/sound/zapsplat_sport_skateboard_plastic_short_roll_on_street_004_30614.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/skateboard/idle/skateIdle.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Full_NO.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ActorAnimation/Man_Walking.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Full_NO.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };

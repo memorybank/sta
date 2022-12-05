@@ -24,9 +24,9 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/car/model/props/carrepair4.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/car/sound/driving.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/car/idle/DrivingACar.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/car/idle/SittingCarIdle.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("vehicles");
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };

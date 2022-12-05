@@ -84,6 +84,7 @@ namespace Playa.Item
         {
             _StageItemDropdown.options.Clear();
             _StageItemDropdown.onValueChanged.RemoveAllListeners();
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("House"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Kandinsky"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Stable"));
 
@@ -99,7 +100,8 @@ namespace Playa.Item
 
         private void ClientSwitchActivateItems(string _ItemName, string uuid)
         {
-            var currentApp = GameObject.Find(_AppDropDown.options[_AppDropDown.value].text).GetComponent<BaseApp>();
+            var currentApp = GameObject.Find(_AppDropDown.options[_AppDropDown.value].text);
+            if (currentApp == null) return;
             Debug.Log("pitaya we are here client " + _ItemName + " " + uuid);
             BaseItem item;
 
@@ -107,8 +109,8 @@ namespace Playa.Item
             try
             {
                 Type t = curAss.GetType("Playa.Item." + _ItemName);
-                item = currentApp.gameObject.AddComponent(t) as BaseItem;
-                item._BaseApp = currentApp;
+                item = currentApp.AddComponent(t) as BaseItem;
+                item._BaseApp = currentApp.GetComponent<BaseApp>();
                 item.ActivateByUser(uuid);
             }
             catch (Exception ex)

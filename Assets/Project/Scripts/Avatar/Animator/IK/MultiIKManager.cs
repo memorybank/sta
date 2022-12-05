@@ -158,7 +158,8 @@ namespace Playa.Avatars
             finalFullBodyBipedIK.solver.SetToReferences(fullBodyBipedIK.references, finalFullBodyBipedIK.references.spine[0]);
 
             lookatIK = gameObject.AddComponent<finalIK.LookAtIK>();
-            lookatIK.solver.target = transform.parent.parent.Find("IKLookAtProbe1");
+            lookatIK.solver.target = new GameObject("IKLookAtProbe").transform;
+            lookatIK.solver.target.parent = transform.parent.parent;
             lookatIK.solver.head = new IKSolverLookAt.LookAtBone(finalFullBodyBipedIK.references.head);
             lookatIK.solver.spine = new IKSolverLookAt.LookAtBone[3];
             lookatIK.solver.spine[0] = new IKSolverLookAt.LookAtBone(finalFullBodyBipedIK.references.head);

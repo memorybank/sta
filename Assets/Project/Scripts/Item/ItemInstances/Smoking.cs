@@ -22,9 +22,9 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
             _ItemProperties.ObjectAssetPath = "Assets/Items/smoke/model/props/cigratte3_yougujia.prefab";
             _ItemProperties.InteractionAnimPath.Add("Assets/Items/smoke/idle/SmokingPrefab.prefab");
-            _ItemProperties.InteractionMaskPath.Add("Assets/Models/Head_And_Right_Arm.mask");
+            _ItemProperties.InteractionMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/smoke/idle/SmokingPrefab.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Head_And_Right_Arm.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
             _ItemProperties.Tags.Add("food");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

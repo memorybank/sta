@@ -52,7 +52,7 @@ namespace Playa.App
 
             // TODO: Add stage item dropdown
             // _DefaultItem = this.gameObject.AddComponent<Stable>();
-            _DefaultItem = this.gameObject.AddComponent<Kandinsky>();
+            _DefaultItem = this.gameObject.AddComponent<House>();
             _DefaultItem._BaseApp = this;            
             _DefaultItem.ActivateByUser("1001");
         }

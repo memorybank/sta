@@ -24,11 +24,11 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
             _ItemProperties.ObjectAssetPath = "Assets/Items/cart/model/origin/Cart.prefab";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/cart/model/origin/PushCart.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_Only.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_Only.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/cart/model/origin/lieIdle.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SubStatusAnimPath.Add("Assets/Items/cart/model/origin/LieonCart.prefab");
-            _ItemProperties.SubStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };
