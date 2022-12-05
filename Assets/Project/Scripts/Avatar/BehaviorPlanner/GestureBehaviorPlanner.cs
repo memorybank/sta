@@ -109,6 +109,12 @@ namespace Playa.Avatars
 
         }
 
+        public void Init()
+        {
+            AvatarLayeredAnimationManager.Init();
+            SetAvatarAnimancerSpeed(1.0f);
+        }
+
         protected void OnTPSBaseInputChanged(string value)
         {
             if (!_AvatarUser.IsActive)

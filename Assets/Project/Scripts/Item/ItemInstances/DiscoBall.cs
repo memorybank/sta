@@ -24,9 +24,9 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/disco/model/props/disco ball.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/disco/sound/Quincas Moreira - Sabor Moreno (128 kbps).mp3";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/disco/idle/Hip Hop Dancing_amy.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Full_NO.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/disco/idle/Hip Hop Dancing_qingwa.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Full_NO.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body , SlotName.Hand };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body , SlotName.Hand };

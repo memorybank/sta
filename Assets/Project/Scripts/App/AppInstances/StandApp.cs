@@ -50,9 +50,7 @@ namespace Playa.App
             config.AvatarUsers[0].AvatarBrain.EventSequencer.StartSequence();
             config.AvatarUsers[1].AvatarBrain.EventSequencer.StartSequence();
 
-            // TODO: Add stage item dropdown
-            // _DefaultItem = this.gameObject.AddComponent<Stable>();
-            _DefaultItem = this.gameObject.AddComponent<Kandinsky>();
+            _DefaultItem = this.gameObject.AddComponent<House>();
             _DefaultItem._BaseApp = this;            
             _DefaultItem.ActivateByUser("1001");
         }

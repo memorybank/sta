@@ -20,9 +20,9 @@ namespace Playa.Item
             _ItemProperties.Name = "Knee";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/knee/idle/KneeIdle.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SubStatusAnimPath.Add("Assets/Items/knee/idle/Pray.prefab");
-            _ItemProperties.SubStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
             ItemSlotTransformDictionary[0] = null;

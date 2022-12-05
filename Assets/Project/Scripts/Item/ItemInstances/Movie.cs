@@ -24,9 +24,9 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
             _ItemProperties.ObjectAssetPath = "Assets/Items/movie/model/props/movie.prefab";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/movie/idle/Woman_Sitting.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/movie/idle/Man_Sitting.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };

@@ -22,7 +22,7 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/guitar/model/props/guitar8.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/guitar/sound/guitar_play2.wav";
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/guitar/idle/GuitarPlayingPrefab.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("instrument");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

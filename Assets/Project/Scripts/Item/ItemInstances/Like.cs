@@ -21,9 +21,9 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
             _ItemProperties.ObjectAssetPath = "Assets/Items/like/model/props/thumb4.prefab";
             _ItemProperties.InteractionAnimPath.Add("Assets/Items/like/idle/like.prefab");
-            _ItemProperties.InteractionMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.InteractionMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/like/idle/like.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.Tags.Add("handhold");
             Dictionary<string, GameObject> d = new();
             d.Add("LeftHand", null);

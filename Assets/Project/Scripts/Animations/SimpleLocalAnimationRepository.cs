@@ -9,6 +9,9 @@ namespace Playa.Animations
 
     public class SimpleLocalAnimationRepository : AnimationRepository
     {
+
+        [SerializeField] private List<AnimationClip> _OriginalAnimationClips;
+
         [SerializeField] private List<cfg.gesture.Phase> _Phases;
 
         [SerializeField] private ConfigsLoader _ConfigLoader;
@@ -16,13 +19,18 @@ namespace Playa.Animations
         public override void Init()
         {
             _ConfigLoader = ConfigsLoader.Instance;
-            // clips
-            //do nothing, add by editor
+            
+            foreach (var clip in _OriginalAnimationClips)
+            {
+                var clipTrans = new Animancer.ClipTransition();
+                clipTrans.Clip = clip;
+                _AnimationClips.Add(clipTrans);
+            }
 
             AvatarMask fullBodyAvatarMask = Addressables.LoadAssetAsync<AvatarMask>
-                        ("Assets/Models/Full_Body.mask").WaitForCompletion();
+                        ("Assets/Project/Animations/Masks/Full_Body.mask").WaitForCompletion();
             AvatarMask headAndHandAvatarMask = Addressables.LoadAssetAsync<AvatarMask>
-                        ("Assets/Models/Head_And_Arms.mask").WaitForCompletion();
+                        ("Assets/Project/Animations/Masks/Head_And_Arms.mask").WaitForCompletion();
 
             //clip infos
             for (int i = 0; i < _ConfigLoader.Tables.TbGestureMark.DataList.Count; i++)

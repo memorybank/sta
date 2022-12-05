@@ -21,9 +21,9 @@ namespace Playa.Item
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
             _ItemProperties.ObjectAssetPath = "Assets/Items/phone/model/props/phone4.prefab";
             _ItemProperties.ActionStatusAnimPath.Add("Assets/Items/phone/idle/PhoneAvatarPrefab.prefab");
-            _ItemProperties.ActionStatusMaskPath.Add("Assets/Models/Head_And_Left_Arm.mask");
+            _ItemProperties.ActionStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/phone/idle/PhoneAvatarPrefab.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Head_And_Left_Arm.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
             _ItemProperties.Tags.Add("handhold");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

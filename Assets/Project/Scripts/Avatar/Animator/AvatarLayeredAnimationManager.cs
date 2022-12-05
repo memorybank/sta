@@ -64,7 +64,7 @@ namespace Playa.Avatars
 
         /************************************************************************************************************************/
 
-        private void Awake()
+        public void Init()
         {
             ResetSubStatusTimestamp();
             _Avatar.Animancer.Layers[kActionLayer].SetMask(_BaseMask);
