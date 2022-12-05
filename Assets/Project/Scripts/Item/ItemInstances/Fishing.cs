@@ -22,10 +22,10 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/fishing/model/props/fishing pole_static 1.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/fishing/sound/fishing.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/fishing/idle/FishingIdlePrefab.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
-            _ItemProperties.SecondIdleStatusMaskPath.Add("Assets/Models/Head_And_Right_Arm.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
+            _ItemProperties.SecondIdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
             _ItemProperties.SubStatusAnimPath.Add("Assets/Items/fishing/idle/FishingCastPrefab.prefab");
-            _ItemProperties.SubStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("hobby");
             Dictionary<string, GameObject> d = new();
             d.Add("RightHand", null);

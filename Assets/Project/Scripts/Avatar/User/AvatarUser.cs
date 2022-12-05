@@ -40,7 +40,7 @@ namespace Playa.Avatars
         [SerializeField] private FacialBehaviorPlanner _FacialBehaviorPlanner;
         private PropertiesPlanner _PropertiesPlanner;
         private ItemFactory _ItemFactory;
-        [SerializeField] private SlotManager _SlotManager;
+        private SlotManager _SlotManager;
         private MultiIKManager _MultiIKManager;
         private HeadIKManager _HeadIKManager;
         private OptionsStore _PositionsStore;
@@ -48,7 +48,7 @@ namespace Playa.Avatars
         // Animator controller that translate behavior description to physical animation
         [SerializeField] private AvatarAnimator _AvatarAnimator;
 
-        [SerializeField] private AvatarProfile _Profile;
+        private AvatarProfile _Profile;
 
         [SerializeField] private int _AvatarPrefabIndex = 1;
 
@@ -58,8 +58,6 @@ namespace Playa.Avatars
         private string _ActiveAnimancerName;
 
         private AvatarActivityType _AvatarActivityType = AvatarActivityType.IsIdle;
-
-        [SerializeField] private FullBodyBipedIK _FullBodyBipedIk;
 
         // Public
         // TODO: Merge all planners into BehaviorPlanner
@@ -101,25 +99,22 @@ namespace Playa.Avatars
 
         public bool IsActive;
 
+        private void Awake()
+        {
+            InitAvatarPrefabDropdown();
+        }
+
         private void Start()
         {
             Debug.Assert(AvatarUUID != 0, "must set Avatar UUID");
-            EnableIKPass();
+            _AvatarPrefabDropdown.onValueChanged.Invoke(_AvatarPrefabDropdown.value);
 
-            InitAvatarPrefabDropdown();
-
+            _SlotManager = new SlotManager(this);
+            _GestureBehaviorPlanner.Init();
             HeadIKInit();
 
             _PositionsStore = new OptionsStore(new List<OptionClass>(), "AvatarPosition");
             _PropertiesPlanner = new PropertiesPlanner();
-        }
-
-        public void EnableIKPass()
-        {
-            // Enable IK Pass for all states:
-            AvatarAnimator.Animancer.Playable.ApplyAnimatorIK = true;
-            // Enable Foot IK Pass for all states;
-            AvatarAnimator.Animancer.Playable.ApplyFootIK = true;
         }
 
         public Transform GetAvatarPosition()
@@ -191,19 +186,16 @@ namespace Playa.Avatars
             _AvatarPrefabDropdown.value =
                 _AvatarPrefabDropdown.options.FindIndex(option => option.text == "");
 
-            //comment: must reset this time
-            AvatarBlendShapeManager blendShapeManager = _AnimancerComponentDict[_ActiveAnimancerName].GetComponent(typeof(AvatarBlendShapeManager)) as AvatarBlendShapeManager;
-            if (FacialBehaviorPlanner != null)
-            {
-                FacialBehaviorPlanner.ResetMorphTarget(blendShapeManager);
-            }
-
             _AvatarPrefabDropdown.onValueChanged.AddListener(index =>
             {
                 ClearUserAffectItems();
                 var optionText = _AvatarPrefabDropdown.options[index].text;
                 var selectedPrefab = _AnimancerComponentDict[optionText];
                 AnimancerComponent animancer = selectedPrefab.GetComponent(typeof(NamedAnimancerComponent)) as AnimancerComponent;
+                if (animancer == null) 
+                { 
+                    animancer = selectedPrefab.gameObject.AddComponent<NamedAnimancerComponent>(); 
+                }
                 if (System.Object.ReferenceEquals(animancer, null))
                 {
                     return;
@@ -288,7 +280,6 @@ namespace Playa.Avatars
         {
             // Transition old avatar to own state
             _AvatarAnimator.OnAvatarComponentChanged(animancerComponent);
-            EnableIKPass();
             Debug.Log("OnAvatarPrefabChange");
 
             ChangeIKManager();
@@ -306,19 +297,6 @@ namespace Playa.Avatars
             multiIKManager.Reset(this);
             _MultiIKManager = multiIKManager;
 
-        }
-
-        public void OnAvatarPrefabChangedInChatScene(string selectedAnimancer)
-        {
-            string optionText = selectedAnimancer;
-            var selectedPrefab = _AnimancerComponentDict[optionText];
-            AnimancerComponent animancer = selectedPrefab.GetComponent(typeof(NamedAnimancerComponent)) as AnimancerComponent;
-            if (System.Object.ReferenceEquals(animancer, null))
-            {
-                return;
-            }
-            _ActiveAnimancerName = optionText;
-            OnAvatarPrefabChanged(animancer);
         }
 
         public Action GetStateFunction(StateActionType type)
@@ -357,16 +335,10 @@ namespace Playa.Avatars
             {
                 case AvatarStateType.ActionIdle:
                     return _AvatarAnimator.ActionIdleState;
-                case AvatarStateType.StartTalking:
-                    return _AvatarAnimator.StartTalking;
                 case AvatarStateType.IDUMetronomic:
                     return _AvatarAnimator.IDUMetronomic;
-                //case AvatarStateType.IDURelax:
-                    //return _AvatarAnimator.IDURelax;
                 case AvatarStateType.IDUStroke:
                     return _AvatarAnimator.IDUStroke;
-                case AvatarStateType.FinishTalking:
-                    return _AvatarAnimator.FinishTalking;
                 case AvatarStateType.Silence:
                     return _AvatarAnimator.SilenceState;
                 case AvatarStateType.BaseIdle:

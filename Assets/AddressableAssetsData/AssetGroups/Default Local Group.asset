@@ -15,11 +15,75 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 1fe4819445f0c264ea83cad3bf11e003
-  m_SerializeEntries: []
+  m_GUID: 1e6585c29efb0974695f00802c51d3ff
+  m_SerializeEntries:
+  - m_GUID: f0dfbf6fb016dba48a9bc827811660d7
+    m_Address: Assets/Project/Animations/Masks/Full_Body.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7f0e1fc23f57df4c95c9f71ac6231e4
+    m_Address: Assets/Project/Animations/Masks/Head_And_Right_Arm.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e72e61ba3bfdad5439563fd530a45d37
+    m_Address: Assets/Project/Animations/Masks/Head_Only.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e86749adf1d901043a677bc8e41901a7
+    m_Address: Assets/Project/Animations/Masks/Head_And_Arms_No_Hands.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a97b4a012a2b79842bf2cc1dbb3fb0f5
+    m_Address: Assets/Project/Animations/Masks/Left_Arm_Only.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6baeb01563932d64392a8d2699f44380
+    m_Address: Assets/Project/Animations/Masks/Body_And_Legs.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebcc116df2db0b242bde2dee16d9fb65
+    m_Address: Assets/Project/Animations/Masks/Full_NO.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cc5233c6e1b3814cbe293cfa60007b7
+    m_Address: Assets/Project/Animations/Masks/Head_And_Left_Arm.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc2d0a76c5501fc46bc1c22f00afac94
+    m_Address: Assets/Project/Animations/Masks/Arms_Only.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1dda6bd0ca615b848b1e5115816cdf62
+    m_Address: Assets/Project/Animations/Masks/Head_And_Arms.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae05fa2c5a065244c9df27effb6627d3
+    m_Address: Assets/Project/Animations/Masks/Right_Arm_Only.mask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e337e1cefd61bf044a04c0163d30fc21
+    m_Address: Assets/Project/Prefabs/P_70s_House.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d19cb9df3e5e0c7449038913db62f559
+    m_Address: Assets/Project/Prefabs/vcam/vcam_qingwa_talk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98c3261e8ea392a41b735bcde58e4ef8
+    m_Address: Assets/Project/Prefabs/vcam/vcam_yuanjing.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4b766923198a7746a69e404f1c0d983
+    m_Address: Assets/Project/Prefabs/vcam/vcam_pingshi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de8dc4af6925754418f8c04a3f26e9aa
+    m_Address: Assets/Project/Prefabs/vcam/vcam_amy_talk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: feac9af93163efd49b8c4c4529e7524a, type: 2}
+  m_Settings: {fileID: 11400000, guid: 09372aa1f0e38764d877661fe60f2243, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 5bf726abadf0ec749bda907ce985f31c, type: 2}
-    - {fileID: 11400000, guid: 55bc805f2852eba419a6bbdac3fff814, type: 2}
+    - {fileID: 11400000, guid: 813675238f4831b46aa9a325ca65a70a, type: 2}
+    - {fileID: 11400000, guid: d93b1e4e06d2245438a94b8da0df5caf, type: 2}

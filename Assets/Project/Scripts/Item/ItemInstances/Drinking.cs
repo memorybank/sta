@@ -22,7 +22,7 @@ namespace Playa.Item
             _ItemProperties.ObjectAssetPath = "Assets/Items/drink/model/props/coffee3.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Items/drink/sound/drink_water.wav";
             _ItemProperties.SubStatusAnimPath.Add("Assets/Items/drink/idle/DrinkingClipPrefab.prefab");
-            _ItemProperties.SubStatusMaskPath.Add("Assets/Models/Head_And_Left_Arm.mask");
+            _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
             _ItemProperties.Tags.Add("food");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

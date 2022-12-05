@@ -663,7 +663,7 @@ namespace Playa.Item
             for (int i = 0; i < ItemSlotUserDictionary.Count; i++)
             {
                 ItemSlotUserDictionary[i].AvatarUser.GestureBehaviorPlanner.OnMaskInit(Addressables.LoadAssetAsync<AvatarMask>
-                        ("Assets/Models/Full_Body.mask").WaitForCompletion());
+                        ("Assets/Project/Animations/Masks/Full_Body.mask").WaitForCompletion());
             }
 
             // Set IdleStatus anim

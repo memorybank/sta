@@ -27,8 +27,6 @@ namespace Playa.Avatars
         {
             Behavior = new AvatarBehavior();
             Behavior.GestureBehavior = new IdleGestureBehavior();
-
-            GestureBehaviorPlanner.SetAvatarAnimancerSpeed(1.0f);
         }
 
         public float GetSpeed()

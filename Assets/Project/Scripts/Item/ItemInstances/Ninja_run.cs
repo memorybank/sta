@@ -26,9 +26,9 @@ namespace Playa.Item
             _ItemProperties.Unique = true;
             _ItemProperties.SoundAssetPath = "Assets/Items/ninja run/sound/ninja run.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ninja run/idle/NinjaRunPrefab.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ninja run/idle/NinjaRunPrefab.prefab");
-            _ItemProperties.IdleStatusMaskPath.Add("Assets/Models/Head_And_Arms.mask");
+            _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };
             _ItemProperties.HasSpeed = true;

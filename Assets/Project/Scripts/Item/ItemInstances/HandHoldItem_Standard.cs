@@ -74,7 +74,7 @@ namespace Playa.Item
             var mobilePlay = Addressables.LoadAssetAsync<GameObject>
                 ("Assets/Items/phone/idle/PhoneAvatarPrefab.prefab").WaitForCompletion();
             var mask0 = Addressables.LoadAssetAsync<AvatarMask>
-                ("Assets/Models/Right_Arm_Locked.mask").WaitForCompletion();
+                ("Assets/Project/Animations/Masks/Right_Arm_Locked.mask").WaitForCompletion();
 
             var sub_idle = new ItemIdleSubStatusGroup();
             sub_idle._StatusAnimations = new ClipTransition[0];

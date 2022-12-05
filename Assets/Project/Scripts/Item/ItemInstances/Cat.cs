@@ -23,9 +23,9 @@ namespace Playa.Item
             _ItemProperties.SoundAssetPath = "Assets/Items/cat/sound/animal_cat_meow.wav";
             _ItemProperties.SoundCycle = false;
             _ItemProperties.ActionStatusAnimPath.Add("Assets/Items/cat/idle/CatIdle.prefab");
-            _ItemProperties.ActionStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.ActionStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/cat/idle/CatIdle.prefab");
-            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Models/Full_Body.mask");
+            _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.Tags.Add("petInArms");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand };

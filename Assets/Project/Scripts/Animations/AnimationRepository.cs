@@ -9,7 +9,7 @@ namespace Playa.Animations
 {
     public abstract class AnimationRepository : MonoBehaviour
     {
-        [SerializeField] private List<ClipTransition> _AnimationClips;
+        [SerializeField] protected List<ClipTransition> _AnimationClips;
         [SerializeField] private Dictionary<string, AnimationClipInfo> _AnimationClipInfos;
 
         private Dictionary<string, int> _AnimationIndexByName;
