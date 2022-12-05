@@ -78,6 +78,7 @@ namespace Playa.Item
 
         public void InitAvatarUserItem()
         {
+            //TODO: clear self only
             ClientSwitchActivateItems("ClearItem", "1001");
         }
         private void InitStageItemDropdown()
