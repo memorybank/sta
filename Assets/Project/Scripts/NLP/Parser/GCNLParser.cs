@@ -1,24 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Concurrent;
-using System.Globalization;
-
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-
-using Google.Cloud.Language.V1;
-using Google.Apis.Auth.OAuth2;
-using Grpc.Auth;
-using FrostweepGames.Plugins.GoogleCloud.StreamingSpeechRecognition;
 using Google.Api.Gax;
 using Google.Api.Gax.Grpc;
-
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Language.V1;
+using Grpc.Auth;
 using Playa.Common;
-using Playa.Common.Utils;
-
-using Playa.NLP.Event;
+using System;
+using System.Collections;
+using System.IO;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace Playa.NLP.Parser
 {
@@ -133,7 +124,8 @@ namespace Playa.NLP.Parser
                     return false;
                 }
 
-                TextAsset textAsset = Resources.Load<TextAsset>(config.googleCredentialFilePath);
+                string textAssetAllText = File.ReadAllText(Application.streamingAssetsPath + "/" + config.googleCredentialFilePath);
+                TextAsset textAsset = new TextAsset(textAssetAllText);
 
                 if (textAsset == null)
                 {

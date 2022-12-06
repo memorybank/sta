@@ -7,7 +7,6 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-using FrostweepGames.Plugins.GoogleCloud.StreamingSpeechRecognition;
 using TMPro;
 using Google.Cloud.Speech.V1;
 using Playa.Common;
@@ -46,12 +45,12 @@ namespace Playa.Audio.ASR
 
 			_languageDropdown.ClearOptions();
 
-			for (int i = 0; i < Enum.GetNames(typeof(Enumerators.LanguageCode)).Length; i++)
+			for (int i = 0; i < Enum.GetNames(typeof(GCSREnumerators.LanguageCode)).Length; i++)
 			{
-				_languageDropdown.options.Add(new Dropdown.OptionData(((Enumerators.LanguageCode)i).Parse()));
+				_languageDropdown.options.Add(new Dropdown.OptionData(((GCSREnumerators.LanguageCode)i).Parse()));
 			}
 
-			_languageDropdown.value = _languageDropdown.options.IndexOf(_languageDropdown.options.Find(x => x.text == Enumerators.LanguageCode.cmn_Hans_CN.Parse()));
+			_languageDropdown.value = _languageDropdown.options.IndexOf(_languageDropdown.options.Find(x => x.text == GCSREnumerators.LanguageCode.cmn_Hans_CN.Parse()));
 
 			InitMicrophoneDevices();
 
@@ -114,7 +113,7 @@ namespace Playa.Audio.ASR
 			// _speechRecognition.StartRecordingFromClip(_SpeechSource.Clip);
 			_speechRecognition.StartRecordingFromAudioSource(_SpeechSource);
 
-			_speechRecognition.StartStreamingRecognition((Enumerators.LanguageCode)_languageDropdown.value, context);
+			_speechRecognition.StartStreamingRecognition((GCSREnumerators.LanguageCode)_languageDropdown.value, context);
 		}
 
 		private async void ClearRecordingData()
