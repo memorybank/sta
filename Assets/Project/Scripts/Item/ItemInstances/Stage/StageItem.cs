@@ -22,7 +22,7 @@ namespace Playa.Item
 
 public class StageItem : BaseItem
     {
-        public float _UpDist = 5.0f;
+        public float _UpDist = 0.5f;
 
         private Vector3 user0Position = new Vector3(0.5f, 0, 0);
         private Quaternion user0Rotation = Quaternion.Euler(0, -45f, 0);

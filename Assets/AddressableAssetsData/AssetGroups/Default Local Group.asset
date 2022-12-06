@@ -349,6 +349,22 @@ MonoBehaviour:
     m_Address: Assets/Project/Models/Cameras/ninjarun_amytalk_third.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 53e4d9408f77eb94a9a36bf4c872ec35
+    m_Address: Assets/Project/Prefabs/SM_Kandinsky.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7e07d6b297090a438278692edcee8f5
+    m_Address: Assets/Project/Prefabs/SM_GameBoy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5ae332acc403c047aa992ba5614734c
+    m_Address: Assets/Project/Prefabs/SM_ForestHouse.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46ce0a532a187fd48bdfe7d5edd623f9
+    m_Address: Assets/Project/Prefabs/SM_ArtGallery.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 09372aa1f0e38764d877661fe60f2243, type: 2}
   m_SchemaSet:
