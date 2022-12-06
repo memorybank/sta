@@ -19,7 +19,7 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Fishing";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/fishing/model/props/fishing pole_static 1.prefab";
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Fishing Pole.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_fishing_sub.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_fishing_actionidle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
