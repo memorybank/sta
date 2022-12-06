@@ -19,12 +19,12 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Fishing";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/fishing/model/props/fishing pole_static 1.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/fishing/sound/fishing.wav";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/fishing/idle/FishingIdlePrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Fishing Pole.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_fishing_sub.wav";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_fishing_actionidle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SecondIdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
-            _ItemProperties.SubStatusAnimPath.Add("Assets/Items/fishing/idle/FishingCastPrefab.prefab");
+            _ItemProperties.SubStatusAnimPath.Add("Assets/Project/Prefabs/Item_fishing_sub.prefab");
             _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("hobby");
             Dictionary<string, GameObject> d = new();

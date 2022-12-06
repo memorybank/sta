@@ -20,10 +20,11 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Smoking";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/smoke/model/props/cigratte3_yougujia.prefab";
-            _ItemProperties.InteractionAnimPath.Add("Assets/Items/smoke/idle/SmokingPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Cigratte.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_smoking_sub.wav";
+            _ItemProperties.InteractionAnimPath.Add("Assets/Project/Prefabs/Item_smoking_sub.prefab");
             _ItemProperties.InteractionMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
-            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/smoke/idle/SmokingPrefab.prefab");
+            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Project/Prefabs/Item_smoking_sub.prefab");
             _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");
             _ItemProperties.Tags.Add("food");
             _ItemProperties.relativeTransformNames.Add("Spine2");
