@@ -102,6 +102,10 @@ namespace Playa.Audio.ASR
         private void StartContinuous()
         {
             recognizedString = "";
+            if (_SpeechSource.audioSourceType == Agora.AudioSourceType.Remote)
+            {
+                return;
+            }
             if (micPermissionGranted)
             {
                 if (IsTranslationEnabled)
