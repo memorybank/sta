@@ -24,9 +24,9 @@ namespace Playa.Item
             _ItemProperties.Name = "Walking";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
             _ItemProperties.Unique = true;
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ActorAnimation/Woman_Walking.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_walking_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ActorAnimation/Man_Walking.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_walking_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SlotNames[0] = new List<SlotName>{ SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName>{ SlotName.Body };
@@ -49,7 +49,7 @@ namespace Playa.Item
 
         protected override void RegisterAdditionalCameras()
         {
-            AddCameraRule(CameraTiming.Turnaround, 2, "walkingMovingCam", "Assets/Items/walk/camera/MOVING_first.prefab", 
+            AddCameraRule(CameraTiming.Turnaround, 2, "walkingMovingCam", "Assets/Project/Prefabs/vcam/vcam_walking_moving_first.prefab", 
                 ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 

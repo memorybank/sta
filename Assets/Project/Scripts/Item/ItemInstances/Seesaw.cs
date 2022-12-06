@@ -22,10 +22,10 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Seesaw";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/seesaw/model/props/Seesaw.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/seesaw/idle/SeesawLeft.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_SeeSaw.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_seesaw_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_Only.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/seesaw/idle/SeesawRight.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_seesaw_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_Only.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };

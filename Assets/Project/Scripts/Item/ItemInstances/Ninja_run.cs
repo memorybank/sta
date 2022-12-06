@@ -24,10 +24,10 @@ namespace Playa.Item
             _ItemProperties.Name = "Ninja_Run";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
             _ItemProperties.Unique = true;
-            _ItemProperties.SoundAssetPath = "Assets/Items/ninja run/sound/ninja run.wav";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ninja run/idle/NinjaRunPrefab.prefab");
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_ninjarun.wav";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_ninjarun_baseIdle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ninja run/idle/NinjaRunPrefab.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_ninjarun_baseIdle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
             _ItemProperties.SlotNames[1] = new List<SlotName> { SlotName.Body };
@@ -56,13 +56,13 @@ namespace Playa.Item
         protected override void RegisterAdditionalCameras()
         {
             AddCameraRule(CameraTiming.Turnaround, 2,
-                "ninja runMovingCam", "Assets/Items/ninja run/camera/MOVING_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "ninja runMovingCam", "Assets/Project/Prefabs/vcam/vcam_ninjarun_moving_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.AllInactive, 2,
-                "ninja runCloseCam", "Assets/Items/ninja run/camera/JINJING_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "ninja runCloseCam", "Assets/Project/Models/Cameras/ninjarun_jinjing_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker0, 2,
-                "ninja runSpeaker0Cam", "Assets/Items/ninja run/camera/AMYTALK_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "ninja runSpeaker0Cam", "Assets/Project/Models/Cameras/ninjarun_amytalk_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker1, 2,
-                "ninja runSpeaker1Cam", "Assets/Items/ninja run/camera/QINGWATALK_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "ninja runSpeaker1Cam", "Assets/Project/Models/Cameras/ninjarun_qingwatalk_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()

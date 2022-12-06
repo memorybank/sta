@@ -22,10 +22,10 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Movie";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/movie/model/props/movie.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/movie/idle/Woman_Sitting.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Movie.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_movie_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/movie/idle/Man_Sitting.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_movie_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
@@ -34,10 +34,10 @@ namespace Playa.Item
 
         protected override void RegisterAdditionalCameras()
         {
-            AddCameraRule(CameraTiming.Turnaround, 2, "movieStartCam", "Assets/Items/movie/camera/PINGSHI_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.AllInactive, 2, "movieSilenceCam", "Assets/Items/movie/camera/YUANJING_first.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker0, 2, "movieSpeaker0Cam", "Assets/Items/movie/camera/AMYTALK_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker1, 2, "movieSpeaker1Cam", "Assets/Items/movie/camera/QINGWATALK_foutth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Turnaround, 2, "movieStartCam", "Assets/Project/Models/Cameras/movie_pingshi_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.AllInactive, 2, "movieSilenceCam", "Assets/Project/Models/Cameras/movie_yuanjing_first.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker0, 2, "movieSpeaker0Cam", "Assets/Project/Models/Cameras/movie_amytalk_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker1, 2, "movieSpeaker1Cam", "Assets/Project/Models/Cameras/movie_qingwatalk_foutth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()

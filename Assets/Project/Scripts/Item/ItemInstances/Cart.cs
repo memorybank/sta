@@ -22,12 +22,13 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Cart";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/cart/model/origin/Cart.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/cart/model/origin/PushCart.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Cart.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_cart_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_Only.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/cart/model/origin/lieIdle.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_cart_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.SubStatusAnimPath.Add("Assets/Items/cart/model/origin/LieonCart.prefab");
+            _ItemProperties.SubStatusAnimPath.Add("");
+            _ItemProperties.SubStatusAnimPath.Add("Assets/Project/Prefabs/Item_cart_sub_1.prefab");
             _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };
@@ -40,13 +41,13 @@ namespace Playa.Item
         protected override void RegisterAdditionalCameras()
         {
             AddCameraRule(CameraTiming.Turnaround, 2,
-                "CartMovingCam", "Assets/Items/cart/camera/MOVING_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "CartMovingCam", "Assets/Project/Prefabs/vcam/vcam_cart_moving_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.AllInactive, 2,
-                "CartCloseCam", "Assets/Items/cart/camera/PINGSHI_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "CartCloseCam", "Assets/Project/Models/Cameras/cart_pingshi_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker0, 2,
-                "CartSpeaker0Cam", "Assets/Items/cart/camera/AMYTALK_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "CartSpeaker0Cam", "Assets/Project/Models/Cameras/cart_amytalk_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker1, 2,
-                "CartSpeaker1Cam", "Assets/Items/cart/camera/QINGWATALK_fhourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "CartSpeaker1Cam", "Assets/Project/Models/Cameras/cart_qingwatalk_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()

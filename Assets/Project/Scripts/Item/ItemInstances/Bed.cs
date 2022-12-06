@@ -22,10 +22,10 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Bed";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/bed/model/props/bed2.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/bed/idle/LayingSleepAmy.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Bed.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_bed_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Arms_Only.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/bed/idle/LayingSleepQingwa.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_bed_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Arms_Only.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
@@ -71,13 +71,13 @@ namespace Playa.Item
         protected override void RegisterAdditionalCameras()
         {
             AddCameraRule(CameraTiming.Turnaround, 2,
-                "bedMovingCam", "Assets/Items/bed/camera/YUANJING.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "bedMovingCam", "Assets/Project/Models/Cameras/bed_yuanjing.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.AllInactive, 2,
-                "bedCloseCam", "Assets/Items/bed/camera/PINGSHI.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "bedCloseCam", "Assets/Project/Models/Cameras/bed_pingshi.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker0, 2,
-                "bedSpeaker0Cam", "Assets/Items/bed/camera/QINGWATALK.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "bedSpeaker0Cam", "Assets/Project/Models/Cameras/bed_qingwa_talk.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
             AddCameraRule(CameraTiming.Speaker1, 2,
-                "bedSpeaker1Cam", "Assets/Items/bed/camera/AMYTALK.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+                "bedSpeaker1Cam", "Assets/Project/Models/Cameras/bed_amy_talk.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()
