@@ -81,6 +81,106 @@ MonoBehaviour:
     m_Address: Assets/Project/Prefabs/vcam/vcam_amy_talk.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 875c583d0a313354583c667ae75458a9
+    m_Address: Assets/Project/Prefabs/Item_cat_notspeaking.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32a0e485741d5e04489815ca03eb208a
+    m_Address: Assets/Project/Prefabs/Item_drink_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e2bb0477592ae84487de6d50e83abaf
+    m_Address: Assets/Project/Prefabs/Item_fishing_actionidle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3a4884b5aace33468ebb31c49e03c6f
+    m_Address: Assets/Project/Prefabs/Item_fishing_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 03f46282e1db9454ea40b64fa66ec792
+    m_Address: Assets/Project/Prefabs/Item_guitar_silence.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 034e13abaead019448b9d99f5824fa8c
+    m_Address: Assets/Project/Prefabs/Item_knife_notspeaking.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41987a8c9d1f7fe479ee9ff3d5d37518
+    m_Address: Assets/Project/Prefabs/Item_knife_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f40953fb36c9a4459216a4bfbef301c
+    m_Address: Assets/Project/Prefabs/Item_like_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7000706dc95fe924987d993da1353f4b
+    m_Address: Assets/Project/Prefabs/Item_microphone_speaking.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6fe63fa5e2fcc144281b44f8f491cae9
+    m_Address: Assets/Project/Prefabs/Item_mobile_notspeaking.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7231259a5fe74d45b5cb51b259dfbe7
+    m_Address: Assets/Project/Prefabs/Item_smoking_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f09eeb7239e5eef439ee6d27efbf6678
+    m_Address: Assets/Project/Prefabs/SM_Cigratte.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e34f85e3d994e50409bf6523625af974
+    m_Address: Assets/Project/Prefabs/SM_Phone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 035cd5c9f9b633d46b1be709e5d02440
+    m_Address: Assets/Project/Prefabs/SM_Coffe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73920272ef8083a438532df0bb342b0a
+    m_Address: Assets/Project/Prefabs/SM_Katana.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 812cfd046b8803242b48e18cac7b8ea4
+    m_Address: Assets/Project/Prefabs/SM_MicroPhone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c2ea8b451ae5d6408dffba5d593bffb
+    m_Address: Assets/Project/Prefabs/SM_Guitar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bccbea1b1787bd748b394fdebcb0b9a0
+    m_Address: Assets/Project/Prefabs/SM_Thumb.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac7246184680f7240bc6fa2445dac814
+    m_Address: Assets/Project/Audio/Streaming/Item_cat_start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f976b9ac5b6f7b04293937d7dc7760fb
+    m_Address: Assets/Project/Audio/Streaming/Item_drink_sub.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6371408d46abacc4193e01c4598e572d
+    m_Address: Assets/Project/Audio/Streaming/Item_fishing_sub.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e6bb0675338c76478ff0758bb727f0c
+    m_Address: Assets/Project/Audio/Streaming/Item_guitar_silence.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 480f7960b11765a48b5d4d418cf24ad4
+    m_Address: Assets/Project/Audio/Streaming/Item_like_sub.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab28ed32f85089240939c67b56780a56
+    m_Address: Assets/Project/Audio/Streaming/Item_mobile_sub.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b695c4cf47fb7c34bae26a714f1eb3fc
+    m_Address: Assets/Project/Audio/Streaming/Item_smoking_sub.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 09372aa1f0e38764d877661fe60f2243, type: 2}
   m_SchemaSet:

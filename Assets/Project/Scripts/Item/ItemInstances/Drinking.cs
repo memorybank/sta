@@ -19,9 +19,9 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Drinking";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/drink/model/props/coffee3.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/drink/sound/drink_water.wav";
-            _ItemProperties.SubStatusAnimPath.Add("Assets/Items/drink/idle/DrinkingClipPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Coffe.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_drink_sub.wav";
+            _ItemProperties.SubStatusAnimPath.Add("Assets/Project/Prefabs/Item_drink_sub.prefab");
             _ItemProperties.SubStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
             _ItemProperties.Tags.Add("food");
             _ItemProperties.relativeTransformNames.Add("Spine2");

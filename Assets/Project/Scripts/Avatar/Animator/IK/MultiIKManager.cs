@@ -722,7 +722,7 @@ namespace Playa.Avatars
 
         private void CompleteFinger(Transform finger)
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 if (finger.childCount == 0)
                 {
