@@ -30,7 +30,7 @@ namespace Playa.Avatars
     public class MultiIKManager : MonoBehaviour
     {
         public bool _Enable;
-        public bool _SetIKTriggerPoint = true;
+        public bool _SetIKTriggerPoint = false;
         // Parent pointer
         private AvatarUser _AvatarUser;
 
