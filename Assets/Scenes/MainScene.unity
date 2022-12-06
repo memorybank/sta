@@ -3357,7 +3357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &239651350
 Transform:
   m_ObjectHideFlags: 0
@@ -5872,7 +5872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &597083228
 Transform:
   m_ObjectHideFlags: 0
@@ -5910,8 +5910,8 @@ MonoBehaviour:
   _lastResultEndTime: 0
   _resultText: {fileID: 699931196}
   _latencyTracker: {fileID: 0}
-  SpeechServiceAPIKey: 525c477e433c446fb947bf0f234a7ec8
-  SpeechServiceRegion: eastasia
+  SpeechServiceAPIKey: 
+  SpeechServiceRegion: 
 --- !u!1 &614197243
 GameObject:
   m_ObjectHideFlags: 0
