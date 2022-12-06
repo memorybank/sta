@@ -30,7 +30,7 @@ namespace Playa.Avatars
     public class MultiIKManager : MonoBehaviour
     {
         public bool _Enable;
-        public bool _SetIKTriggerPoint = true;
+        public bool _SetIKTriggerPoint = false;
         // Parent pointer
         private AvatarUser _AvatarUser;
 
@@ -179,7 +179,11 @@ namespace Playa.Avatars
             rightElbowIK.solver.IKPositionWeight = 0f;
 
             groundIK = gameObject.AddComponent<GrounderFBBIK>();
-            groundIK.ik = fullBodyBipedIK;
+            groundIK.ik = gameObject.AddComponent<FullBodyBipedIK>();
+            BipedReferences.AutoDetectReferences(ref groundIK.ik.references, transform,
+                new BipedReferences.AutoDetectParams(true, false));
+            groundIK.ik.solver.SetToReferences(groundIK.ik.references, groundIK.ik.references.spine[0]);
+            groundIK.ik.enabled = false;
             groundIK.solver.layers = 1;
             groundIK.solver.footSpeed = 2.0f;
             groundIK.solver.rotateSolver = true;
@@ -414,21 +418,24 @@ namespace Playa.Avatars
             {
                 return;
             }
+            groundIK.enabled = groundEnable;
 
             if (_BodyIKTarget.target != null)
             {
                 _AvatarUser.ActiveAvatarTransform.position = _AvatarUser.ActiveAvatarTransform.position +
                 _BodyIKTarget.target.position - ArmatureUtils.FindPartString(_AvatarUser.ActiveAvatarTransform, "Hips").position;
+                // Rotate leg
+            }
+            else
+            {
+                groundIK.ik.GetIKSolver().Update();
             }
 
             HeadIKRigging();
 
             ComputeWeights();
-
             _Deformer.Deform(_AvatarUser.ActiveAvatarTransform);
-
             var animHands = GetHandPositions();
-
             if (lhPoser != null)
             {
                 lhPoser.UpdateManual();
@@ -443,6 +450,7 @@ namespace Playa.Avatars
             fullBodyBipedIK.GetIKSolver().Update();
             var fbHands = GetHandPositions();
             Interpolate(animHands, ccdHands, fbHands);
+
             IKRigging();
 
             //update follow target
