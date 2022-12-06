@@ -5787,6 +5787,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 84a790c4fcf49f64b974c027a69c3b8c, type: 2}
+    - target: {fileID: 7655590536038690884, guid: 16ea60593c0d7fc40a17719a7c14e244,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16ea60593c0d7fc40a17719a7c14e244, type: 3}
 --- !u!4 &590675091 stripped
@@ -12806,6 +12811,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 84a790c4fcf49f64b974c027a69c3b8c, type: 2}
+    - target: {fileID: 6781571753186764742, guid: 486c7bf8e5db4044bb7189601ba1bff7,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4238889830430125889, guid: 486c7bf8e5db4044bb7189601ba1bff7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 486c7bf8e5db4044bb7189601ba1bff7, type: 3}
