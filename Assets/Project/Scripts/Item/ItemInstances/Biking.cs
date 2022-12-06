@@ -16,14 +16,9 @@ namespace Playa.Item
 
     public class Biking : BaseItem
     {
-        public Vector3 _CloseCameraPosition = new Vector3(-1.0f, 8.0f, 14.0f);
-        public Quaternion _CloseCameraQuaternion = Quaternion.Euler(25.0f, 175.0f, 0.0f);
-
         private Animator _BikeAnimator;
         private List<ReferenceInfo> _BikeMotionInfo;
         private Transform _LeftFoot;
-
-        private Quaternion userRotation = Quaternion.Euler(0, 0f, 0);
 
         protected override void InitProperties()
         {
@@ -31,10 +26,10 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Biking";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/bike/model/props/bike7.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/bike/idle/biking.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Bike.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_bike_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/bike/idle/bike_sit.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_bike_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };
@@ -46,10 +41,10 @@ namespace Playa.Item
 
         protected override void RegisterAdditionalCameras()
         {
-            AddCameraRule(CameraTiming.Turnaround, 2, "bikingMovingCam", "Assets/Items/bike/camera/MOVING_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.AllInactive, 2, "bikingCloseCam", "Assets/Items/bike/camera/PINGSHI_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker0, 2, "bikingSpeaker0Cam", "Assets/Items/bike/camera/AMYTALK_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker1, 2, "bikingSpeaker1Cam", "Assets/Items/bike/camera/QINGWATALK_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Turnaround, 2, "bikingMovingCam", "Assets/Project/Prefabs/vcam/vcam_bike_moving_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.AllInactive, 2, "bikingCloseCam", "Assets/Project/Models/Cameras/bike_pingshi_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker0, 2, "bikingSpeaker0Cam", "Assets/Project/Models/Cameras/bike_amytalk_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker1, 2, "bikingSpeaker1Cam", "Assets/Project/Models/Cameras/bike_qingwatalk_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()
