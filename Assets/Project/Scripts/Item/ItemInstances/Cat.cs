@@ -19,7 +19,7 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Cat";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/cat/model/props/cat+amy.prefab";
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_CatAndAmy.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_cat_start.wav";
             _ItemProperties.SoundCycle = false;
             _ItemProperties.ActionStatusAnimPath.Add("Assets/Project/Prefabs/Item_cat_notspeaking.prefab");
