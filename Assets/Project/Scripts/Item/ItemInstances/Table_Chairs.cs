@@ -20,10 +20,10 @@ namespace Playa.Item
 
             _ItemProperties.Name = "Table_Chairs";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/table/model/props/table.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/table/idle/TableWomanPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Table.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_table_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/table/idle/TableManPrefab.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_table_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body};

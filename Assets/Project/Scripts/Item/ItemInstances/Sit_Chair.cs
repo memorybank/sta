@@ -21,8 +21,8 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Sit_Chair";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/SitIK_test/chair_6.prefab";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Animations/status_test/anims/StandAnimPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Chair.prefab";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_sitchair_baseIdle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
