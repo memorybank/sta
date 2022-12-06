@@ -13,16 +13,16 @@ using Playa.App.Cinemachine;
 namespace Playa.Item
 {
 
-    public class Stable : StageItem
+    public class ArtGallery : StageItem
     {
         protected override void InitProperties()
         {
             base.InitProperties();
-            _ItemProperties.Name = "Stable";
-            _ItemProperties.IsMovable = true;
-            _StageProperties.ObjectAssetPath = "Assets/Items/GroundItem/grass_moving4.prefab";
-            _StageProperties.SoundAssetPath = "Assets/Items/stable/sound/2.wav";
-            _StageProperties.PlaneName = "sphere";
+            _ItemProperties.Name = "ArtGallery";
+            _ItemProperties.IsMovable = false;
+            _StageProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_ArtGallery.prefab";
+            //_StageProperties.SoundAssetPath = "Assets/Items/stable/sound/2.wav";
+            _StageProperties.PlaneName = "floor_Floor Satin_0";
         }
 
         protected override void RegisterAdditionalCameras()
@@ -45,14 +45,6 @@ namespace Playa.Item
             _CinemachineUtils.ExecuteCmd(new AddCameraRuleCmd(CameraTiming.Turnaround,
                 1, "grassCloseCam", "Assets/Project/Prefabs/vcam/vcam_yuanjing.prefab", _Objects["grass"].transform));
 
-        }
-
-        protected override void OnAvatarSpeedChange(bool isSelfChange, float speed)
-        {
-            if (isSelfChange)
-            {
-                PlayMovableAnimationBySpeed("grass", "Scene", 50.0f / 180.0f, speed);
-            }
         }
     }
 }

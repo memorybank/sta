@@ -50,7 +50,7 @@ namespace Playa.App
             config.AvatarUsers[0].AvatarBrain.EventSequencer.StartSequence();
             config.AvatarUsers[1].AvatarBrain.EventSequencer.StartSequence();
 
-            _DefaultItem = this.gameObject.AddComponent<House>();
+            _DefaultItem = this.gameObject.AddComponent<Kandinsky>();
             _DefaultItem._BaseApp = this;            
             _DefaultItem.ActivateByUser("1001");
         }
