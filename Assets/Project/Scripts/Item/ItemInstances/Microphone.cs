@@ -20,7 +20,7 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Microphone";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/microphone/model/props/microphone_yougujia.prefab";
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_MicroPhone.prefab";
             _ItemProperties.Tags.Add("device");
             _ItemProperties.relativeTransformNames.Add("Spine2");
             Dictionary<string, GameObject> d = new();

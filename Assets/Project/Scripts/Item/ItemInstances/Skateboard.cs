@@ -21,11 +21,11 @@ namespace Playa.Item
             OnboardOtherAvatars();
             _ItemProperties.Name = "Skateboard";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/skateboard/model/props/skateboard_yougujia.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/skateboard/sound/zapsplat_sport_skateboard_plastic_short_roll_on_street_004_30614.wav";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/skateboard/idle/skateIdle.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_SkateBoard.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_skateboard.wav";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_skateboard_baseIdle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/ActorAnimation/Man_Walking.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_walking_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_NO.mask");
             _ItemProperties.Unique = true;
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Body };
@@ -51,10 +51,10 @@ namespace Playa.Item
 
         protected override void RegisterAdditionalCameras()
         {
-            AddCameraRule(CameraTiming.Turnaround, 2, "skateboardMovingCam", "Assets/Items/skateboard/camera/MOVING_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.AllInactive, 2, "skateboardCloseCam", "Assets/Items/skateboard/camera/JINJING_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker0, 2, "skateboardSpeaker0Cam", "Assets/Items/skateboard/camera/AMYTALK_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
-            AddCameraRule(CameraTiming.Speaker1, 2, "skateboardSpeaker1Cam", "Assets/Items/skateboard/camera/QINGWATALK_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Turnaround, 2, "skateboardMovingCam", "Assets/Project/Prefabs/vcam/vcam_skateboard_moving_first.prefab", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.AllInactive, 2, "skateboardCloseCam", "Assets/Project/Models/Cameras/skateboard_jinjing_second.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker0, 2, "skateboardSpeaker0Cam", "Assets/Project/Models/Cameras/skateboard_amytalk_third.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Speaker1, 2, "skateboardSpeaker1Cam", "Assets/Project/Models/Cameras/skateboard_qingwatalk_fourth.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void InitialIKTargets(int itemSlotIndex, Transform IKDollNodes)

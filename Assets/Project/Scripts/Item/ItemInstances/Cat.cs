@@ -20,11 +20,11 @@ namespace Playa.Item
             _ItemProperties.Name = "Cat";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
             _ItemProperties.ObjectAssetPath = "Assets/Items/cat/model/props/cat+amy.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/cat/sound/animal_cat_meow.wav";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_cat_start.wav";
             _ItemProperties.SoundCycle = false;
-            _ItemProperties.ActionStatusAnimPath.Add("Assets/Items/cat/idle/CatIdle.prefab");
+            _ItemProperties.ActionStatusAnimPath.Add("Assets/Project/Prefabs/Item_cat_notspeaking.prefab");
             _ItemProperties.ActionStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
-            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/cat/idle/CatIdle.prefab");
+            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Project/Prefabs/Item_cat_notspeaking.prefab");
             _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Full_Body.mask");
             _ItemProperties.Tags.Add("petInArms");
             _ItemProperties.relativeTransformNames.Add("Spine2");

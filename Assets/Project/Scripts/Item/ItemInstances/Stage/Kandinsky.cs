@@ -21,8 +21,7 @@ namespace Playa.Item
             base.InitProperties();
             _ItemProperties.Name = "Kandinsky";
             _ItemProperties.IsMovable = true;
-            _StageProperties.ObjectAssetPath = "Assets/Items/stage/kandinsky.prefab";
-            _StageProperties.SoundAssetPath = "Assets/Items/stable/sound/2.wav";
+            _StageProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Kandinsky.prefab";
             _StageProperties.PlaneName =  "daolu_zong";
         }
 
@@ -31,18 +30,18 @@ namespace Playa.Item
             var grass = _Objects["grass"].transform;
 
             // speaking close cam
-            AddCameraRule(CameraTiming.AllInactive, 1, "grassSpeakingCloseCam", "Assets/Items/stable/camera/vcam_pingshi.prefab", grass);
+            AddCameraRule(CameraTiming.AllInactive, 1, "grassSpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_pingshi.prefab", grass);
 
             // speaker0 cam
-            AddCameraRule(CameraTiming.Speaker0, 1, "grassAvatar0SpeakingCloseCam", "Assets/Items/stable/camera/vcam_amy_talk.prefab",
+            AddCameraRule(CameraTiming.Speaker0, 1, "grassAvatar0SpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_amy_talk.prefab",
                 grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[0].ActiveAvatarTransform));
 
             // speaker1 cam
-            AddCameraRule(CameraTiming.Speaker1, 1, "grassAvatar1SpeakingCloseCam", "Assets/Items/stable/camera/vcam_qingwa_talk.prefab",
+            AddCameraRule(CameraTiming.Speaker1, 1, "grassAvatar1SpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_qingwa_talk.prefab",
                 grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[1].ActiveAvatarTransform));
 
             // speaking turnaround cam
-            AddCameraRule(CameraTiming.Turnaround, 1, "grassCloseCam", "Assets/Items/stable/camera/vcam_yuanjing.prefab", grass);
+            AddCameraRule(CameraTiming.Turnaround, 1, "grassCloseCam", "Assets/Project/Prefabs/vcam/vcam_yuanjing.prefab", grass);
 
         }
 

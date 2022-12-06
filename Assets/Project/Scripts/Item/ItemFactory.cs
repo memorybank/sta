@@ -85,8 +85,11 @@ namespace Playa.Item
         {
             _StageItemDropdown.options.Clear();
             _StageItemDropdown.onValueChanged.RemoveAllListeners();
-            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("House"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Kandinsky"));
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("ArtGallery"));
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("ForestHouse"));
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Gameboy"));
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("House"));            
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Stable"));
 
             _StageItemDropdown.onValueChanged.AddListener(index =>
@@ -154,10 +157,10 @@ namespace Playa.Item
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Knee"));
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Movie"));
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Ninja_Run"));
-            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Sit_Chair"));
-            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Sofa"));
-            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Skateboard"));
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Seesaw"));
+            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Sit_Chair"));
+            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Skateboard"));
+            _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Sofa"));
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Table_Chairs"));
             _FullBodyItemDropdown.options.Add(new TMP_Dropdown.OptionData("Walking"));
 

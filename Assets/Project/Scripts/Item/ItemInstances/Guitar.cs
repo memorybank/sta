@@ -19,9 +19,9 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Guitar";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/guitar/model/props/guitar8.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/guitar/sound/guitar_play2.wav";
-            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/guitar/idle/GuitarPlayingPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Guitar.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_guitar_silence.wav";
+            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Project/Prefabs/Item_guitar_silence.prefab");
             _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("instrument");
             _ItemProperties.relativeTransformNames.Add("Spine2");

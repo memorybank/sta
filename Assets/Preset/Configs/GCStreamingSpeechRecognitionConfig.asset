@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxAlternatives: 1
   googleCredentialLoadFromResources: 1
-  googleCredentialFilePath: google-service-account-private-key
+  googleCredentialFilePath: google-service-account-private-key.json
   googleCredentialJson: 
   interimResults: 1
   enableAutomaticPunctuation: 0

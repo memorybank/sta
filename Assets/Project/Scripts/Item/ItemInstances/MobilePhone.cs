@@ -19,10 +19,11 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "MobilePhone";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/phone/model/props/phone4.prefab";
-            _ItemProperties.ActionStatusAnimPath.Add("Assets/Items/phone/idle/PhoneAvatarPrefab.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Phone.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_mobile_sub.wav";
+            _ItemProperties.ActionStatusAnimPath.Add("Assets/Project/Prefabs/Item_mobile_notspeaking.prefab");
             _ItemProperties.ActionStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
-            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Items/phone/idle/PhoneAvatarPrefab.prefab");
+            _ItemProperties.SilenceStatusAnimPath.Add("Assets/Project/Prefabs/Item_mobile_notspeaking.prefab");
             _ItemProperties.SilenceStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Left_Arm.mask");
             _ItemProperties.Tags.Add("handhold");
             _ItemProperties.relativeTransformNames.Add("Spine2");

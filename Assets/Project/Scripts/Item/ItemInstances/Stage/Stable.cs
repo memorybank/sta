@@ -31,19 +31,19 @@ namespace Playa.Item
 
             // speaking close cam
             _CinemachineUtils.ExecuteCmd(new AddCameraRuleCmd(CameraTiming.AllInactive,
-                1, "grassSpeakingCloseCam", "Assets/Items/stable/camera/vcam_pingshi.prefab", grass));
+                1, "grassSpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_pingshi.prefab", grass));
 
             // speaking close cam
             _CinemachineUtils.ExecuteCmd(new AddCameraRuleCmd(CameraTiming.Speaker0,
-                1, "grassAvatar0SpeakingCloseCam", "Assets/Items/stable/camera/vcam_amy_talk.prefab", grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[0].ActiveAvatarTransform)));
+                1, "grassAvatar0SpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_amy_talk.prefab", grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[0].ActiveAvatarTransform)));
 
             // speaking close cam
             _CinemachineUtils.ExecuteCmd(new AddCameraRuleCmd(CameraTiming.Speaker1,
-                1, "grassAvatar1SpeakingCloseCam", "Assets/Items/stable/camera/vcam_qingwa_talk.prefab", grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[1].ActiveAvatarTransform)));
+                1, "grassAvatar1SpeakingCloseCam", "Assets/Project/Prefabs/vcam/vcam_qingwa_talk.prefab", grass, ArmatureUtils.FindHead(_BaseApp._AppStartupConfig.AvatarUsers[1].ActiveAvatarTransform)));
 
             // speaking turnaround cam
             _CinemachineUtils.ExecuteCmd(new AddCameraRuleCmd(CameraTiming.Turnaround,
-                1, "grassCloseCam", "Assets/Items/stable/camera/vcam_yuanjing.prefab", _Objects["grass"].transform));
+                1, "grassCloseCam", "Assets/Project/Prefabs/vcam/vcam_yuanjing.prefab", _Objects["grass"].transform));
 
         }
 

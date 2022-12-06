@@ -21,11 +21,11 @@ namespace Playa.Item
             OnboardOtherAvatars();
             _ItemProperties.Name = "Car";
             _ItemProperties.EffectArea = ItemEffectArea.FullBody;
-            _ItemProperties.ObjectAssetPath = "Assets/Items/car/model/props/carrepair4.prefab";
-            _ItemProperties.SoundAssetPath = "Assets/Items/car/sound/driving.wav";
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/car/idle/DrivingACar.prefab");
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Car.prefab";
+            _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_car.wav";
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_car_baseIdle_0.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
-            _ItemProperties.IdleStatusAnimPath.Add("Assets/Items/car/idle/SittingCarIdle.prefab");
+            _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_car_baseIdle_1.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
             _ItemProperties.Tags.Add("vehicles");
             _ItemProperties.SlotNames[0] = new List<SlotName> { SlotName.Hand, SlotName.Body };
@@ -38,7 +38,7 @@ namespace Playa.Item
 
         protected override void RegisterAdditionalCameras()
         {
-            AddCameraRule(CameraTiming.Turnaround, 2, "houshiCam", "Assets/Items/car/camera/HOUSHI.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
+            AddCameraRule(CameraTiming.Turnaround, 2, "houshiCam", "Assets/Project/Models/Cameras/car_houshi.fbx", ItemManager.FindStageItem()._Objects["grass"].transform);
         }
 
         protected override void ExecuteExtraCmds()

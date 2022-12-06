@@ -1,24 +1,22 @@
+using FrostweepGames.Plugins.Native;
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Speech.V1;
+using Google.Protobuf;
+using Grpc.Auth;
+using Grpc.Core;
+using Playa.Config;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
-using Google.Protobuf;
-using Google.Cloud.Speech.V1;
-using Google.Apis.Auth.OAuth2;
-using Grpc.Auth;
-using FrostweepGames.Plugins.Native;
-using FrostweepGames.Plugins.Editor;
-using System.Collections;
-using UnityEngine.Assertions;
-using Grpc.Core;
-using FrostweepGames.Plugins.GoogleCloud.StreamingSpeechRecognition;
-using Playa.Config;
-using Playa.Audio.Agora;
+using System.IO;
+using SimpleJSON;
 
 namespace Playa.Audio.ASR
 {
-	public class GCSRRecognizer : MonoBehaviour
+    public class GCSRRecognizer : MonoBehaviour
 	{
 		private const bool LogExceptions = false;
 
@@ -35,7 +33,7 @@ namespace Playa.Audio.ASR
 
 		public static GCSRRecognizer Instance { get; private set; }
 
-		public Enumerators.LanguageCode LanguageCode;
+		public GCSREnumerators.LanguageCode LanguageCode;
 
 		public event Action StreamingRecognitionStartedEvent;
 		public event Action<string> StreamingRecognitionFailedEvent;
@@ -65,7 +63,7 @@ namespace Playa.Audio.ASR
 
 		private List<byte> _currentRecordedSamples;
 
-		private Enumerators.LanguageCode _currentLanguageCode;
+		private GCSREnumerators.LanguageCode _currentLanguageCode;
 
 		private List<List<string>> _currentRecogntionContext;
 
@@ -77,11 +75,9 @@ namespace Playa.Audio.ASR
 
 		public Config.GCSRConfig config;
 
-		[ReadOnly]
 		public bool isRecording;
 
-		[ReadOnly]
-		public string microphoneDevice;
+		private string microphoneDevice;
 
 		public AudioClip audioClip => _workingClip;
 
@@ -227,7 +223,7 @@ namespace Playa.Audio.ASR
 		/// </summary>
 		/// <param name="languageCode">langauge detection</param>
 		/// <param name="context">audio context</param>
-		public void StartStreamingRecognition(Enumerators.LanguageCode languageCode, List<List<string>> context)
+		public void StartStreamingRecognition(GCSREnumerators.LanguageCode languageCode, List<List<string>> context)
 		{
 			if (!_initialized)
 			{
@@ -666,7 +662,8 @@ namespace Playa.Audio.ASR
 					return;
 				}
 
-				TextAsset textAsset = Resources.Load<TextAsset>(config.googleCredentialFilePath);
+				string textAssetAllText = File.ReadAllText(Application.streamingAssetsPath + "/" + config.googleCredentialFilePath);
+				TextAsset textAsset = new TextAsset(textAssetAllText);
 
 				if (textAsset == null)
 				{
