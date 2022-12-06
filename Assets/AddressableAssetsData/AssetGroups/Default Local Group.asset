@@ -61,10 +61,6 @@ MonoBehaviour:
     m_Address: Assets/Project/Animations/Masks/Right_Arm_Only.mask
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: e337e1cefd61bf044a04c0163d30fc21
-    m_Address: Assets/Project/Prefabs/P_70s_House.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: d19cb9df3e5e0c7449038913db62f559
     m_Address: Assets/Project/Prefabs/vcam/vcam_qingwa_talk.prefab
     m_ReadOnly: 0
