@@ -37,6 +37,12 @@ namespace Playa.NLP.Parser
         // Start is called before the first frame update
         public override void Init()
         {
+            if (_keywordParser.Active)
+            {
+                _keywordParser.PassClient(client);
+                _keywordParser.parserKeywordEvent.AddListener(OnParserKeywordDetect);
+            }
+
             if (Initialize())
             {
                 StartCoroutine(CoClientCheck());
@@ -51,12 +57,6 @@ namespace Playa.NLP.Parser
                     _punctuationParser.PassClient(client);
                     _punctuationParser.ParserSyntaxRootEvent.AddListener(OnParserSyntaxRootDetect);
                     _punctuationParser.parserCommaPunctuationEvent.AddListener(OnParserCommaPunctuationDetect);
-                }
-
-                if (_keywordParser.Active)
-                {
-                    _keywordParser.PassClient(client);
-                    _keywordParser.parserKeywordEvent.AddListener(OnParserKeywordDetect);
                 }
 
                 if (_sentimentParser.Active)
