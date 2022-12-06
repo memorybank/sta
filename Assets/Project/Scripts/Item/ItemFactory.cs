@@ -85,12 +85,11 @@ namespace Playa.Item
         {
             _StageItemDropdown.options.Clear();
             _StageItemDropdown.onValueChanged.RemoveAllListeners();
-            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData(""));
+            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Kandinsky"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("ArtGallery"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("ForestHouse"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Gameboy"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("House"));            
-            _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Kandinsky"));
             _StageItemDropdown.options.Add(new TMP_Dropdown.OptionData("Stable"));
 
             _StageItemDropdown.onValueChanged.AddListener(index =>
