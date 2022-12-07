@@ -20,9 +20,9 @@ namespace Playa.Item
             base.InitProperties();
             _ItemProperties.Name = "House";
             _ItemProperties.IsMovable = false;
-            _StageProperties.ObjectAssetPath = "Assets/Project/Prefabs/P_70s_House.prefab";
+            _StageProperties.ObjectAssetPath = "Assets/Project/Prefabs/P_70S_House.prefab";
             //_StageProperties.SoundAssetPath = "Assets/Items/stable/sound/2.wav";
-            _StageProperties.PlaneName = "SM_House";
+            _StageProperties.PlaneName = "Object_14";
         }
 
         protected override void RegisterAdditionalCameras()
