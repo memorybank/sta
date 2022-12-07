@@ -7,22 +7,6 @@ using Animancer;
 
 namespace Playa.Avatars.IK
 {
-    public class KeyFrame
-    {
-        public float originTime;
-        public Vector3 destPosition;
-        public Vector3 originVelocity;
-        public Vector3 destVelocity;
-
-        public KeyFrame(float originTime, Vector3 destPosition, Vector3 originVelocity, Vector3 destVelocity)
-        {
-            this.originTime = originTime;
-            this.destPosition = destPosition;
-            this.originVelocity = originVelocity;
-            this.destVelocity = destVelocity;
-        }
-    }
-
     public class AffineDeformer : IKRigDeformer
     {
         private const float _Lambda = 1f;

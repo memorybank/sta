@@ -9,6 +9,7 @@ namespace Playa.Avatars.IK
     // TODO: Extend it to full body and matrix representation
     public class NormalizedIKPose
     {
+        public float NormalizedTime;
         public Vector3 LeftElbowPosition;
         public Quaternion LeftElbowRotation;
         public Vector3 LeftHandPosition;
@@ -21,6 +22,7 @@ namespace Playa.Avatars.IK
         public NormalizedIKPose Copy()
         {
             NormalizedIKPose result = new NormalizedIKPose();
+            result.NormalizedTime = NormalizedTime;
             result.LeftElbowPosition = this.LeftElbowPosition;
             result.LeftElbowRotation = this.LeftElbowRotation;
             result.LeftHandPosition = this.LeftHandPosition;

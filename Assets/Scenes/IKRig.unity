@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70331850af3739b4c9d7fdf9ca7abb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Clip: {fileID: 7400000, guid: d7d2152e29b3a574da5a71603204afd6, type: 2}
+  _Clip: {fileID: 7400000, guid: 996836f6c2dd7e743b72adb1e893dd98, type: 2}
   _Playback: {fileID: 1993211949}
   _LeftElbowFollow: {fileID: 0}
   _LeftHandFollow: {fileID: 0}
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70331850af3739b4c9d7fdf9ca7abb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Clip: {fileID: 7400000, guid: d7d2152e29b3a574da5a71603204afd6, type: 2}
+  _Clip: {fileID: 7400000, guid: 996836f6c2dd7e743b72adb1e893dd98, type: 2}
   _Playback: {fileID: 948964972}
   _LeftElbowFollow: {fileID: 0}
   _LeftHandFollow: {fileID: 0}
@@ -3922,7 +3922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _AvatarPrefabDropdown: {fileID: 190862033}
-  _Reference: {fileID: 0}
+  _Reference: {fileID: 1100657612}
 --- !u!4 &1674230415
 Transform:
   m_ObjectHideFlags: 0
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70331850af3739b4c9d7fdf9ca7abb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Clip: {fileID: 7400000, guid: d7d2152e29b3a574da5a71603204afd6, type: 2}
+  _Clip: {fileID: 7400000, guid: 996836f6c2dd7e743b72adb1e893dd98, type: 2}
   _Playback: {fileID: 1106375372}
   _LeftElbowFollow: {fileID: 0}
   _LeftHandFollow: {fileID: 0}
@@ -4036,7 +4036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70331850af3739b4c9d7fdf9ca7abb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Clip: {fileID: 7400000, guid: d7d2152e29b3a574da5a71603204afd6, type: 2}
+  _Clip: {fileID: 7400000, guid: 996836f6c2dd7e743b72adb1e893dd98, type: 2}
   _Playback: {fileID: 1405159175}
   _LeftElbowFollow: {fileID: 0}
   _LeftHandFollow: {fileID: 0}

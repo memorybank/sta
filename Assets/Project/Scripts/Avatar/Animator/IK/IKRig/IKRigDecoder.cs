@@ -74,9 +74,10 @@ namespace Playa.Avatars.IK
             if (_Deformer != null)
             {
                 var rigData = NormalizedIKPose.GetCurrentPose(_Playback);
+                rigData.NormalizedTime = _State.NormalizedTime;
                 var hand = rigData.LeftHandPosition;
                 rigData = _Deformer.Deform(rigData);
-                Debug.Log(string.Format("{0}=>{1}", hand, rigData.LeftHandPosition));
+                Debug.Log(string.Format("IKRig Decoder {0}=>{1}", hand, rigData.LeftHandPosition));
 
                 _LeftElbowFollow.position = _LeftArm.position + rigData.LeftElbowPosition;               _LeftElbowFollow.rotation = _LeftArm.rotation * rigData.LeftElbowRotation;
                 _LeftElbowFollow.rotation = _LeftArm.rotation * rigData.LeftElbowRotation;
