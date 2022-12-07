@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7871827069651733245}
   - component: {fileID: -940800655249119468}
   m_Layer: 0
-  m_Name: Item_skateboard_baseIdle
+  m_Name: Item_skateboard_sub2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,6 +50,6 @@ MonoBehaviour:
       _NormalizedTimes: []
       _Callbacks: []
       _Names: []
-    _Clip: {fileID: 7400000, guid: 638529619f336034cb64ee7e0f100837, type: 2}
+    _Clip: {fileID: 7400000, guid: 83a56df76b7558d49bd0cb11810bc41c, type: 2}
     _Speed: 1
     _NormalizedStartTime: NaN

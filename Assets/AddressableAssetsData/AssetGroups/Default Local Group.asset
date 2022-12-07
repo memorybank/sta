@@ -493,6 +493,14 @@ MonoBehaviour:
     m_Address: Assets/Project/Prefabs/M_CatAndAmy.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 7cfabeadb5a54da42a7c15475c2e5329
+    m_Address: Assets/Project/Prefabs/Item_skateboard_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16f9e804688b3ab4a8efbe232f22f9a8
+    m_Address: Assets/Project/Prefabs/Item_skateboard_sub2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 09372aa1f0e38764d877661fe60f2243, type: 2}
   m_SchemaSet:
