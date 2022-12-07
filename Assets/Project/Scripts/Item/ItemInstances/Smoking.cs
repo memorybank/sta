@@ -20,7 +20,7 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Smoking";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_Cigratte.prefab";
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/SM_cigratte.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_smoking_sub.wav";
             _ItemProperties.InteractionAnimPath.Add("Assets/Project/Prefabs/Item_smoking_sub.prefab");
             _ItemProperties.InteractionMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Right_Arm.mask");

@@ -429,12 +429,12 @@ MonoBehaviour:
     m_Address: Assets/Project/Prefabs/SM_Katana.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 035cd5c9f9b633d46b1be709e5d02440
-    m_Address: Assets/Project/Prefabs/SM_Coffe.prefab
+  - m_GUID: 33a6cbbf2db635d4ebb566c7c79e39e9
+    m_Address: Assets/Project/Prefabs/SM_Coffee.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f09eeb7239e5eef439ee6d27efbf6678
-    m_Address: Assets/Project/Prefabs/SM_Cigratte.prefab
+  - m_GUID: 23d77ffe25be79b478ef92f3b006f8f2
+    m_Address: Assets/Project/Prefabs/SM_cigratte.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 18c3dda5afccf8c42a1f525d0cdd0caf
