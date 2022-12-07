@@ -398,7 +398,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: a76b3b7128e78cf4790acf251a09daa9
-    m_Address: Assets/Project/Prefabs/P_70S_House 1.prefab
+    m_Address: Assets/Project/Prefabs/P_70S_House.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: ee5a66f0601a70446b6f1d80ab717999
