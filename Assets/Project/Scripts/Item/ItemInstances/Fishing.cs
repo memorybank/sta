@@ -19,7 +19,7 @@ namespace Playa.Item
         {
             _ItemProperties.Name = "Fishing";
             _ItemProperties.EffectArea = ItemEffectArea.HandHold;
-            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_Fishing Pole.prefab";
+            _ItemProperties.ObjectAssetPath = "Assets/Project/Prefabs/M_fishing.prefab";
             _ItemProperties.SoundAssetPath = "Assets/Project/Audio/Streaming/Item_fishing_sub.wav";
             _ItemProperties.IdleStatusAnimPath.Add("Assets/Project/Prefabs/Item_fishing_actionidle.prefab");
             _ItemProperties.IdleStatusMaskPath.Add("Assets/Project/Animations/Masks/Head_And_Arms.mask");
@@ -51,22 +51,16 @@ namespace Playa.Item
 
         protected override void RegisterAnimCallbacks()
         {
-            // todo: refactor fish extra
-            var fish = _Objects["Fishing"].transform.Find("fish").gameObject;
-            fish.transform.SetParent(FishRelativeTransform());
-            // comment: fish parent changed, manage it by _Objects
-            _Objects.Add(ItemProperties.Name+"fish", fish);
+            var fish = _Objects[_ItemProperties.Name].transform.Find("M_fish").gameObject;
+            fish.transform.SetParent(AffectAvatarUser.GetAvatarPosition());
+            _Objects.Add(ItemProperties.Name + "fish", fish);
             fish.transform.localPosition = new Vector3();
             fish.transform.localRotation = Quaternion.identity;
-            var fishmesher = fish.transform.GetComponentInChildren<SkinnedMeshRenderer>();
             fish.SetActive(false);
 
-            var handle = _Objects["Fishing"].transform.Find("Handle").gameObject;
-            var handleAnimator = handle.GetComponent<Animator>();
-            handleAnimator.speed = 0;
-
+            var objAimator = _Objects[_ItemProperties.Name].GetComponent<Animator>();
             //todo: source Play() Stop()
-            _SubStatus[0]._StatusAnimations[0].Events.SetCallback("fishing",
+            _SubStatus[0]._StatusAnimations[0].Events.SetCallback("animStart",
                 () =>
                 {
                     ExitEvent.Register(_SubStatus[0]._StatusAnimations[0].State, () =>
@@ -77,58 +71,28 @@ namespace Playa.Item
                             Debug.Log("Item Events Fishing sound exit stop triggered");
                         }
 
-                        if (ItemManager.FindItemByName("Fishing") == null)
+                        if (ItemManager.FindItemByName(_ItemProperties.Name) == null)
                         {
                             return;
                         }
 
+                        objAimator.SetInteger("state", 0);
+
                         fish.SetActive(false);
-
-                        handleAnimator.speed = 0;
-
-                        _ItemProperties.ikTargetsDictionary[0] = new Dictionary<IKEffectorName, IKTarget>();
-                        Debug.Log("lockarm fishing exit");
-                        LockArmIK(0, true, true, true, true, 2);
-                        LockArmIK(0, false, true, true, true, 2);
                     });
 
-                    if (ItemManager.FindItemByName("Fishing") == null)
+                    if (ItemManager.FindItemByName(_ItemProperties.Name) == null)
                     {
                         return;
                     }
+                    objAimator.SetInteger("state", 1);
+
                     fish.SetActive(true);
-                    fishmesher.enabled = false;
-                    handleAnimator.Play("Handle", -1, _SubStatus[0]._StatusAnimations[0].State.NormalizedTime);
-                    handleAnimator.speed = 1.0f;
-                    _ItemProperties.ikTargetsDictionary[0] = new Dictionary<IKEffectorName, IKTarget>();
-                    Debug.Log("lockarm fishing setactive");
-                    LockArmIK(0, true, false, false, false, 2);
-                    LockArmIK(0, false, false, false, false, 2);
-                }
-                );
-            _SubStatus[0]._StatusAnimations[0].Events.SetCallback("fishing_suc",
-                () =>
-                {
+
                     if (ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name) != null && !ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).isPlaying)
                     {
                         ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).Play();
                         Debug.Log("Item Events Fishing sound play triggered");
-                    }
-
-                    if (ItemManager.FindItemByName("Fishing") == null)
-                    {
-                        return;
-                    }
-                    fishmesher.enabled = true;
-                }
-                );
-            _SubStatus[0]._StatusAnimations[0].Events.SetCallback("fishing_suc2",
-                () =>
-                {
-                    if (ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name) != null && ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).isPlaying)
-                    {
-                        ServiceLocator.AudioService.GetAudioSource(ItemId, _ItemProperties.Name).Stop();
-                        Debug.Log("Item Events Fishing sound stop triggered");
                     }
                 }
                 );
@@ -140,7 +104,7 @@ namespace Playa.Item
             ItemEventManager.AddItemEventSelfInactiveListener(this, slotIndex, () =>
             {
                 _ItemProperties.ikTargetsDictionary[slotIndex] = new Dictionary<IKEffectorName, IKTarget>();
-                LockArmIK(slotIndex, false, true, true, true, 2);
+                LockArmIK(slotIndex, true, false, false, false, 2);
                 Debug.Log("Item Events Fishing SelfInactive triggered");
             });
 
@@ -149,22 +113,9 @@ namespace Playa.Item
             ItemEventManager.AddItemEventSelfSpeakingListener(this, slotIndex, () =>
             {
                 _ItemProperties.ikTargetsDictionary[slotIndex] = new Dictionary<IKEffectorName, IKTarget>();
-                LockArmIK(slotIndex, false, false, false, false, 2);
+                LockArmIK(slotIndex, true, true, true, true, 2);
                 Debug.Log("Item Events Fishing SelfSpeaking triggered");
             });
-        }
-
-        protected override void ExecuteExtraCmds()
-        {
-            
-            Debug.Log("Item Events Fishing must triggered");
-        }
-
-        protected override void InitialIKTargets(int itemSlotIndex, Transform IKDollNodes)
-        {
-            Debug.Log("lockarm fishing initialiktargets");
-            LockArmIK(itemSlotIndex, true, true, true, true, 2);
-            LockArmIK(itemSlotIndex, false, true, true, true, 2);
         }
     }
 }

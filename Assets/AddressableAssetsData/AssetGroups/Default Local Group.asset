@@ -353,8 +353,8 @@ MonoBehaviour:
     m_Address: Assets/Project/Models/Cameras/bike_qingwatalk_fourth.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: bb09fa84f2dad364db9e4614c02f0326
-    m_Address: Assets/Project/Prefabs/M_Fishing Pole.prefab
+  - m_GUID: e37363bc033e96d4490d1cacf085067f
+    m_Address: Assets/Project/Prefabs/M_fishing.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 8bc8d849f1f21694c92ef53cf559dfda
