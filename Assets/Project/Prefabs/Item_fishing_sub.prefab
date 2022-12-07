@@ -49,14 +49,10 @@ MonoBehaviour:
     _Events:
       _NormalizedTimes:
       - 0
-      - 0.53
-      - 0.67
       - NaN
       _Callbacks: []
       _Names:
-      - fishing
-      - fishing_suc
-      - fishing_suc2
-    _Clip: {fileID: 7400000, guid: 555be407d3b070d48a856aca5425b6c9, type: 2}
+      - animStart
+    _Clip: {fileID: 7400000, guid: 5fd1166f85d59a44da6a1159cc0f73f6, type: 2}
     _Speed: 1
     _NormalizedStartTime: NaN
