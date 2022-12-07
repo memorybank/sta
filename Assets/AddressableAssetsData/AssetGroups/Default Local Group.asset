@@ -353,160 +353,8 @@ MonoBehaviour:
     m_Address: Assets/Project/Models/Cameras/bike_qingwatalk_fourth.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 996836f6c2dd7e743b72adb1e893dd98
-    m_Address: Assets/Project/Animations/Items/Item_drink_sub.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 546102660498b8e449426913c14ba25e
-    m_Address: Assets/Project/Animations/Items/Item_cat_notspeaking.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 0be1c189c8951d543b7efa5c3ad4f9b3
-    m_Address: Assets/Project/Animations/Items/Item_fishing_actionidle.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 555be407d3b070d48a856aca5425b6c9
-    m_Address: Assets/Project/Animations/Items/Item_fishing_sub.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a02e2902f65a1c440aad4361113969af
-    m_Address: Assets/Project/Animations/Items/Item_guitar_silence.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 4acb77c6a78488d4e80f56785159dbaa
-    m_Address: Assets/Project/Animations/Items/Item_knife_notspeaking.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 06eed2969ebd7cd429aaff0878b580ef
-    m_Address: Assets/Project/Animations/Items/Item_knife_sub.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7db31112516cfeb42a1e84a4ea2ab64e
-    m_Address: Assets/Project/Animations/Items/Item_like_sub.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 24fee0267b7aa9a4da59742ba81225cb
-    m_Address: Assets/Project/Animations/Items/Item_microphone_speaking.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: c150c2bab21bc5a4c8b999325fbd3823
-    m_Address: Assets/Project/Animations/Items/Item_mobile_notspeaking.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7e74e6f5354291742b14be82e29b9a84
-    m_Address: Assets/Project/Animations/Items/Item_smoking_sub.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 9039c40aecb03f046aecfcfd09ef7af7
-    m_Address: Assets/Project/Animations/Items/Item_disco_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a08013d1fbb95164f82d073b3868c80d
-    m_Address: Assets/Project/Animations/Items/Item_bike_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: c029144d7e607aa47b4fcb4a6fa9e68a
-    m_Address: Assets/Project/Animations/Items/Item_walking_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 01b93a0a21483f140ab9dcb833be24ce
-    m_Address: Assets/Project/Animations/Items/Item_walking_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 71545f5f6af65d846be53a5bea7bfd62
-    m_Address: Assets/Project/Animations/Items/Item_seesaw_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 32028288b0a41524d942710e76a9dcd1
-    m_Address: Assets/Project/Animations/Items/Item_bed_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 04c6c97a00fe661409bedbe71ee96623
-    m_Address: Assets/Project/Animations/Items/Item_cart_sub_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a49d763c4b64ef84298f7c1206431ed8
-    m_Address: Assets/Project/Animations/Items/Item_movie_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a4ed397c504665a419fc817b9a4da806
-    m_Address: Assets/Project/Animations/Items/Item_car_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 05211abd57969b04c984a9724dd26ecd
-    m_Address: Assets/Project/Animations/Items/Item_bike_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 86b88006a78bfb240997972a70fca137
-    m_Address: Assets/Project/Animations/Items/Item_table_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: f6fc914a9ded93b4aad0cd8e268605cc
-    m_Address: Assets/Project/Animations/Items/Item_sofa_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: c76100994b7b5b4439b66d1dc437a21d
-    m_Address: Assets/Project/Animations/Items/Item_seesaw_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 88dc0b9f9bd496940a1d72b40f2df936
-    m_Address: Assets/Project/Animations/Items/Item_bed_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a8271f3cf035f9044876261a93102680
-    m_Address: Assets/Project/Animations/Items/Item_sitchair_baseIdle.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: e80f410825c2e2d49911c6266e6f84b8
-    m_Address: Assets/Project/Animations/Items/Item_knee_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: f8c153b2aca98034897c11d806462cd7
-    m_Address: Assets/Project/Animations/Items/Item_car_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 39a8944a3a1d13347934edf25a9fc638
-    m_Address: Assets/Project/Animations/Items/Item_table_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 59ef8aaa388288b468e19a768d447124
-    m_Address: Assets/Project/Animations/Items/Item_cart_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: f96d4b48713ae1d4ab5bf3c315d90d4f
-    m_Address: Assets/Project/Animations/Items/Item_knee_sub_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 2a0124adc5064344b8bd73609300b6b9
-    m_Address: Assets/Project/Animations/Items/Item_sofa_baseIdle_0.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 4c620b9e7e3b01a4686451b953227b64
-    m_Address: Assets/Project/Animations/Items/Item_disco_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: cc0eb57e5b03a8847994d20521ceb255
-    m_Address: Assets/Project/Animations/Items/Item_movie_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 9e72e0e141323c644a1759c78186cce9
-    m_Address: Assets/Project/Animations/Items/Item_ninjarun_baseIdle.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 5f1525dafc7f7a54294fac28ee66b38c
-    m_Address: Assets/Project/Animations/Items/Item_skateboard_baseIdle.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 6f99ecefc5dabf9489317d48f343a91f
-    m_Address: Assets/Project/Animations/Items/Item_cart_baseIdle_1.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: dd75dd333351895438056e9fa7373ded
-    m_Address: Assets/Project/Prefabs/M_CatAndAmy.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: bb09fa84f2dad364db9e4614c02f0326
-    m_Address: Assets/Project/Prefabs/M_Fishing Pole.prefab
+  - m_GUID: e37363bc033e96d4490d1cacf085067f
+    m_Address: Assets/Project/Prefabs/M_fishing.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 8bc8d849f1f21694c92ef53cf559dfda
@@ -581,12 +429,12 @@ MonoBehaviour:
     m_Address: Assets/Project/Prefabs/SM_Katana.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 035cd5c9f9b633d46b1be709e5d02440
-    m_Address: Assets/Project/Prefabs/SM_Coffe.prefab
+  - m_GUID: 33a6cbbf2db635d4ebb566c7c79e39e9
+    m_Address: Assets/Project/Prefabs/SM_Coffee.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f09eeb7239e5eef439ee6d27efbf6678
-    m_Address: Assets/Project/Prefabs/SM_Cigratte.prefab
+  - m_GUID: 23d77ffe25be79b478ef92f3b006f8f2
+    m_Address: Assets/Project/Prefabs/SM_cigratte.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 18c3dda5afccf8c42a1f525d0cdd0caf
@@ -639,6 +487,18 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: 834845b06902df24faf59fb93ca8db38
     m_Address: Assets/Project/Audio/Streaming/Item_cat_start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce257a062950cfc449b69728ac41853b
+    m_Address: Assets/Project/Prefabs/M_CatAndAmy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cfabeadb5a54da42a7c15475c2e5329
+    m_Address: Assets/Project/Prefabs/Item_skateboard_sub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16f9e804688b3ab4a8efbe232f22f9a8
+    m_Address: Assets/Project/Prefabs/Item_skateboard_sub2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
